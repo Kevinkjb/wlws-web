@@ -1,0 +1,238 @@
+.mission-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 68rem;
+    max-width: 100%;
+    margin: 8rem auto;
+    padding: 1.5rem;
+}
+.mission-section{
+    position: relative;
+}
+
+.mission{
+    background-color: #3271AA;
+}
+.vision{
+    background-color: #AA3232;
+}
+.values{
+    position: absolute;
+    background-color: #D7C529;
+    top: 9rem;
+    left: 30rem;
+}
+.mission,
+.vision{
+    width: 35rem;
+    max-width: 100%;
+    height: 22rem;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.values{
+    width: 35rem;
+    max-width: 100%;
+    height: 25rem;
+    color: #fff;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+.mission-text{
+    width: 25rem;
+    max-width: 100%;
+    line-height: 1.8;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.vision-text{
+    width: 26rem;
+    max-width: 100%;
+    line-height: 1.8;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.values-text{
+    width: 30rem;
+    max-width: 100%;
+    line-height: 1.8;
+    color: #fff;
+    font-size: 1.1rem;
+}
+.mission-title,
+.vision-title,
+.values-title{
+    font-size: 1.7rem;
+    margin: 1rem 0;
+    font-weight: 600;
+}
+
+
+.mission-img,
+.vision-img,
+.values-img{
+    width: 5rem;
+}
+
+@media screen and (max-width: 1090px) {
+    .mission-container{
+        width: 56rem;
+    }
+    .mission,
+    .vision{
+        width: 28rem;
+        max-width: 100%;
+        height: 22rem;
+        color: #fff;
+        padding: 2rem;
+        margin-bottom: 1rem;
+    }
+    .values{
+        width: 28rem;
+        max-width: 100%;
+        height: 23rem;
+        color: #fff;
+        padding: 2rem;
+        margin-bottom: 1rem;
+    }
+    .mission-text{
+        width: 25rem;
+        max-width: 100%;
+        line-height: 1.8;
+        color: #fff;
+        font-size: 1rem;
+    }
+    .vision-text{
+        width: 26rem;
+        max-width: 100%;
+        font-size: 1rem;
+    }
+    .values-text{
+        width: 30rem;
+        font-size: 1rem;
+    }  
+    .values{
+        top: 10rem;
+        left: 25rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .mission-container{
+        width: 52rem;
+    }
+    .mission,
+    .vision{
+        width: 26rem;
+        height: 19rem;
+    }
+    .values{
+        width: 28rem;
+        height: 22rem;
+    }
+    .mission-text{
+        font-size: .9rem;
+    }
+    .vision-text{
+
+        font-size: .9rem;
+    }
+    .values-text{
+        font-size: .9rem;
+    }  
+    .values{
+        top: 8rem;
+        left: 23rem;
+    }
+}
+@media screen and (max-width: 840px) {
+    .mission-section{
+        flex-direction: column;
+    }
+    .mission-container{
+        width: 33rem;
+    }
+    .mission,
+    .vision{
+        width: 30rem;
+        height: 19rem;
+    }
+    .mission-text{
+        font-size: 1rem;
+    }
+    .vision-text{
+
+        font-size: 1rem;
+    }
+    .values-text{
+        font-size: 1rem;
+    }  
+    .values{
+        width: 30rem;
+        height: 23rem;
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+}
+@media screen and (max-width: 530px) {
+
+    .mission-container{
+        width: 29rem;
+    }
+    .mission,
+    .vision{
+        width: 26rem;
+        height: 19rem;
+    }
+    .mission-text{
+        font-size: 1rem;
+    }
+    .vision-text{
+
+        font-size: 1rem;
+    }
+    .values-text{
+        font-size: 1rem;
+    }  
+    .values{
+        width: 26rem;
+        height: 24rem;
+    }
+}
+@media screen and (max-width: 470px) {
+
+    .mission-container{
+        width: 23rem;
+        padding: 1rem;
+    }
+    .mission,
+    .vision{
+        width: 21rem;
+        height: 19rem;
+    }
+    .values{
+        width: 21rem;
+        height: 100%;
+    }
+    .mission-img,
+    .vision-img,
+    .values-img{
+        width: 4rem;
+    }
+    .vision-text,
+    .mission-text,
+    .values-text{
+        font-size: .9rem;
+    }
+
+    .mission-title,
+    .vision-title,
+    .values-title{
+        font-size: 1.4rem;
+        margin: 1rem 0;
+        font-weight: 600;
+    }
+
+}

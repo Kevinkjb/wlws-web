@@ -1,0 +1,206 @@
+.home-hr{
+    width: 90rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* FUNDERS AND SPONSORS SECTION */
+.funders,
+.sponsor{
+    width: 90rem;
+    margin: 5rem auto 2rem auto;
+    max-width: 100%;
+    padding: 2rem;
+}
+.collaborator{
+    width: 90rem;
+    margin: 2rem auto 2rem auto;
+    max-width: 100%;
+    padding: 2rem;
+}
+.funders-header{
+    width: 11.5rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+.collaborator-header{
+    width: 12rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+.sponsor-header{
+    width: 14.2rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+.funders-title,
+.sponsor-title,
+.collaborator-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.about-hr,.sponsor-hr, .funders-hr, .collaborator-hr{
+    color: #000;
+    margin-top: .5rem;
+    border: 2px solid #3088A4;
+    border-bottom: 0;
+}
+.funders-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35rem;
+    margin-top: 3rem;
+}
+.sponsor-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80rem;
+    max-width: 100%;
+    margin-top: 3rem;
+}
+.collaborator-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    max-width: 100%;
+    margin-top: 3rem;  
+}
+
+.funder-box{
+    object-fit: contain;
+    width: 15rem;
+    height: 15rem;  
+    padding: 1rem;
+    transition: all .2s ease;
+}
+.funder-box:hover{
+    transform: scale(1.1);
+}
+.collab-logo{
+    width: 10rem;
+    height: 10rem;
+    transition: all .2s ease;
+}
+.sponsor-logo{
+    width: 8rem;
+    height: 10rem;
+    transition: all .2s ease;
+    object-fit: contain;
+}
+.collab-logo:hover,
+.sponsor-logo:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* HERO SECTION */
+/* .home-hero{
+    background-color: #000;
+    background-image: url('../../images/background/hero-bg.svg');
+    background-position:100% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 50rem;
+    position: relative;
+    z-index: 1;
+}
+.home-hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .2);
+    z-index: -1;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+} */
+
+/* RESPONSIVE SECTION */
+@media screen and (max-width: 900px) {
+    .funders,
+    .sponsor,
+    .collaborator{
+        margin: 5rem auto 1rem auto;
+    }
+    .collaborator,
+    .sponsor{
+        margin-top: 1rem;
+    }
+    .sponsor{
+        margin-bottom: 5rem;
+    }
+
+    .collab-logo{
+        width: 12rem;
+        height: 12rem;
+    }
+}
+@media screen and (max-width: 780px) {
+    .funders-container{
+        width: 35rem;
+        max-width: 100%;
+    }
+    .funder-box{
+        object-fit: contain;
+        width: 12rem;
+        height: 12rem;  
+        padding: 0;
+        transition: all .2s ease;
+    }
+}
+@media screen and (max-width: 660px) {
+    .collab-logo{
+        width: 10rem;
+        height: 10rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    .collaborator-container{
+        flex-wrap: wrap;
+        width: 25rem;
+    }
+    .sponsor-container{
+        flex-wrap: wrap;
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 490px) {
+    .funders-container{
+        width: 35rem;
+        max-width: 100%;
+    }
+    .funder-box{
+        width: 10rem;
+        height: 10rem;  
+    }
+}
+@media screen and (max-width: 420px) {
+    .funders-container{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 400px) {
+    .collab-logo{
+        width: 8rem;
+        height: 8rem;
+        margin-bottom: 2rem;
+    }
+    .funders-container{
+        flex-wrap: wrap;
+        width: 13rem;
+    }
+    .funder-box{
+        width: 13rem;
+        height: 13rem;  
+    }
+}

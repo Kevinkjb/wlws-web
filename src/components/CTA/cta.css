@@ -1,0 +1,68 @@
+.cta-container{
+    background-image: url('../../images/background/cta.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    position: relative;
+    z-index: 1;
+}
+.cta-container::before{
+    content: "";
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    position: absolute;
+    z-index: -1;
+
+}
+.cta-section{
+    width: 90rem;
+    max-width: 100%;
+    padding: 2rem;
+}
+.cta-title{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.cta-text{
+    color: #fff;
+    font-size: 1.6rem;
+    width: 68rem;
+    max-width: 100%;
+    line-height: 1.8;
+    margin: 2rem 0;
+}
+.cta-btn{
+    width: 11rem;
+    height: 2.5rem;
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all .3s ease;
+}
+.cta-btn:hover{
+    width: 12rem;
+}
+
+@media screen and (max-width: 670px) {
+    .cta-text{
+        font-size: 1.2rem;
+        width: 68rem;
+    }
+}
+@media screen and (max-width: 390px) {
+    .cta-text{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,17 @@
+#dropdown-basic-button{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0;
+}
+#dropdown-basic-button:hover{
+    color: rgb(255, 174, 18); 
+}
+#dropdown-basic-button:focus{
+    outline: none;
+}
+.btn{
+    border: none;
+}
+.drop-item:hover{
+    color: rgb(255, 174, 18);  
+}

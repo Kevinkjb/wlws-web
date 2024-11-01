@@ -1,0 +1,109 @@
+/* .hero-section{
+    background-color: #000;
+    background-image: url('../../images/background/hero-bg.svg');
+    background-position:100% 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 60rem;
+    position: relative;
+    z-index: 1;
+}
+.hero-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+    width: 100%;
+    max-width: 100%;
+
+} */
+.hero-container{
+    display: flex;
+    align-items: center;
+    height: 50rem;
+    width: 90rem;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+.hero-title{
+    width: 47rem;
+    max-width: 100%;
+    line-height: 1.7;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+}
+/* SLIDER */
+.hero-slider {
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 50rem; /* adjust as needed */
+    width: 100%;
+}
+
+.overlay {
+    /* Overlay styles if needed */
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay for text */
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* RESPONSIVE SECTION */
+@media screen and (max-width: 780px){
+    .hero-title{
+        width: 47rem;
+        font-size: 2.7rem;
+    }
+    
+    .hero-slider {
+        background-position: center;
+        height: 40rem; /* adjust as needed */
+    }
+    .hero-container{
+        height: 40rem;
+    }
+}
+@media screen and (max-width: 530px){
+    .hero-title{
+        width: 30rem;
+        font-size: 2.5rem;
+    }
+}
+@media screen and (max-width: 484px){
+    .hero-title{
+        font-size: 2.2rem;
+    }
+    .hero-slider {
+        background-position: center;
+        height: 35rem; /* adjust as needed */
+    }
+    .hero-container{
+        height: 35rem;
+    }
+}
+@media screen and (max-width: 440px){
+    .hero-title{
+        font-size: 2.1rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .hero-title{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 392px){
+    .hero-title{
+        font-size: 1.9rem;
+    }
+
+}

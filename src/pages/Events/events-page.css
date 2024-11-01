@@ -1,0 +1,510 @@
+.festival-header,
+.wehoops-header,
+.wfcf-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 85rem;
+    max-width: 100%;
+    margin: 3rem auto;
+    padding: 1.5rem;
+}
+.festival-title,
+.wehoops-title,
+.wfcf-title{
+    width: 9rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 2.4rem;
+}
+
+/* SUBTITLE CONTAINER */
+
+.sub-container,
+.wehoops-sub-container,
+.wfcf-sub-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12rem;
+    color: #3088A4;
+}
+.festival-subtitle,
+.wehoops-subtitle
+.wfcf-subtitle{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: .9rem;
+}
+.festival-hr,
+.wehoops-hr,
+.wfcf-hr{
+    width: 7rem;
+    color: #3088A4;
+    border-bottom: 0;
+}
+.festival-text,
+.wehoops-text,
+.wfcf-text{
+    width: 60rem;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    color: #616161;
+    max-width: 100%;
+}
+
+/* PERFORMERS / VENDORS / RIDES */
+.performers-section,
+.vendors-section,
+.rides-section,
+.event-sponsor-section,
+.wehoops-section{
+    width: 85rem;
+    max-width: 100%;
+    margin: 2rem auto 3rem auto;
+    padding: 1.5rem;
+}
+.wfcf-section{
+    width: 85rem;
+    max-width: 100%;
+    margin: 2rem auto 3rem auto;
+    padding: 1.5rem;
+}
+.wfcf-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60rem;
+    max-width: 100%;
+    margin: 2rem 0 2rem 0;
+}
+.performers-list, 
+.vendors-list,
+.rides-list,
+.wehoops-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85rem;
+    max-width: 100%;
+    margin: 2rem 0 2rem 0;
+}
+.wfcf-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 53rem;
+    max-width: 100%;
+    margin: 2rem 0 2rem 0;
+}
+.event-sponsor-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45rem;
+    max-width: 100%;
+    margin: 2rem 0;
+}
+.performers-header{
+    width: 10.3rem;
+
+}
+.vendors-header{
+    width: 7.5rem;
+}
+.rides-header{
+    width: 5.2rem;
+}
+.event-sponsor-header{
+    width: 8.5rem;
+}
+.performers-title,
+.vendors-title,
+.rides-title,
+.event-sponsor-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.performers-hr,
+.vendors-hr,
+.rides-hr,
+.event-sponsor-hr{
+    color: #000;
+    margin-top: .2rem;
+    border: 2px solid #3088A4;
+    border-bottom: 0;
+}
+
+/* .wfcf-three,
+.wehoops-one,
+.wehoops-two,
+.wehoops-three{
+    width: 25rem;
+    height: 30rem; 
+    background-color: #d9d9d9;  
+} */
+
+
+.performer-img, .vendor-img, .rides-img, .wehoops-img{
+    width: 25rem;
+    height: 30rem;
+    object-fit: cover;
+}
+.wfcf-img{
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.performer-text,
+.vendors-text,
+.wfcf-subtext,
+.wehoops-subtext{
+    line-height: 1.8;
+    width: 40rem;
+    margin: 2rem 0;
+    color: #616161;
+    max-width: 100%;
+}
+.performer-text-two, .vendors-text-two{
+    margin: 2rem 0;
+    color: #616161;
+}
+.events-register-btn{
+    background-color: #3088A4;
+    color: #fff;
+    width: 12rem;
+    height: 2.6rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+.events-register-btn:hover{
+    width: 13rem;
+}
+.event-sponsor-one{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-between;
+    width: 80rem;
+    max-width: 100%;
+}
+.event-sponsor-list{
+    width: 80rem;
+    max-width: 100%;
+}
+.list-one,
+.list-two,
+.list-three,
+.list-four{
+    max-width: 100%;
+}
+.list-one p,
+.list-two p,
+.list-three p,
+.list-four p{
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+/* EVENTS HERO SECTION */
+.hero-section-festival{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/background/events.jpg');
+    position: relative;
+    z-index: 1;
+    padding: 3rem;
+
+}
+.hero-section-festival::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+    width: 100%;
+    max-width: 100%;
+    height: 25rem;
+}
+.events-hero-section{
+    background-color: #000;
+    background-image: url('../../images/background/events-bg.png');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    height: 40rem;
+    position: relative;
+    z-index: 1;
+    margin: 2rem 0 0;
+}
+.events-hero-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    z-index: -1;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* DONATION SECTION */
+.donation-section{
+    background-color: #000;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.donation-info{
+    text-align: center;
+    padding: 1.5rem;
+    max-width: 100%;
+}
+.donation-text{
+    color: #fff;
+    font-size: 1.3rem;
+    width: 50rem;
+    max-width: 100%;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+.donation-btn{
+    background-color: #3088A4;
+    color: #fff;
+    width: 12rem;
+    height: 2.6rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img{
+        width: 22rem;
+        height: 28rem;
+        object-fit: cover;
+    }
+    .festival-text,
+    .wehoops-text,
+    .wfcf-text{
+        width: 50rem;
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 1190px) {
+
+    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img{
+        width: 19rem;
+        height: 25rem;
+        object-fit: cover;
+    }
+    .festival-text,
+    .wehoops-text,
+    .wfcf-text{
+        width: 45rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img{
+        width: 17rem;
+        height: 22rem;
+    }
+    .festival-text,
+    .wehoops-text,
+    .wfcf-text{
+        width: 38rem;
+    }
+    .event-sponsor-one{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 1fr);
+        width: 35rem;
+    }
+    .event-sponsor-list{
+        width: 35rem;
+        max-width: 100%;
+    }
+    .list-one{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .list-two{
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+    .list-three{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .list-four{
+        grid-column: 2/3;
+        grid-row: 2;
+    
+    }
+}
+@media screen and (max-width: 900px) {
+
+    .performer-img, .vendor-img, .rides-img , .wehoops-img, .wfcf-img{
+        width: 15rem;
+    }
+    .festival-text,
+    .wehoops-text,
+    .wfcf-text{
+        width: 33rem;
+        font-size: .9rem;
+    }
+    .performer-text{
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .festival-header,
+    .wehoops-header,
+    .wfcf-header{
+        flex-direction: column;
+        margin: 4rem auto 3rem auto;
+    }
+    .festival-text,
+    .wehoops-text,
+    .wfcf-text{
+        margin-top: 1rem;
+    }
+    .performers-list, 
+    .vendors-list,
+    .rides-list,
+    .wehoops-list, .wfcf-list{
+        flex-wrap: wrap;
+        width: 45rem;
+    }
+    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img{
+        width: 20rem;
+        height: 25rem;
+        margin-bottom: 2rem;
+    }
+    .events-hero-section{
+        height: 30rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .performers-list, 
+    .vendors-list,
+    .rides-list,
+    .wehoops-list{
+        width: 36rem;
+    }
+    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img{
+        width: 16rem;
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .events-hero-section{
+        height: 20rem;
+    }
+    .donation-text{
+        font-size: 1rem;
+    }
+    .donation-info{
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 570px) {
+    .performers-list, 
+    .vendors-list,
+    .rides-list,
+    .wehoops-list{
+        width: 20rem;
+    }
+    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img{
+        width: 20rem;
+        height: 25rem;
+    }
+    .vendors-text,
+    .wfcf-subtext,
+    .wehoops-subtext{
+        font-size: .9rem;
+    }
+    .event-sponsor-one{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, 1fr);
+        width: 35rem;
+    }
+    .event-sponsor-list{
+        width: 35rem;
+        max-width: 100%;
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .performers-list, 
+    .vendors-list,
+    .rides-list,
+    .wehoops-list{
+        width: 20rem;
+    }
+    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img{
+        width: 20rem;
+        height: 25rem;
+    }
+    .vendors-text,
+    .wfcf-subtext,
+    .wehoops-subtext{
+        font-size: .9rem;
+    }
+    .event-sponsor-one{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 10rem;
+        width: 20rem;
+    }
+    .event-sponsor-list{
+        width: 20rem;
+        max-width: 100%;
+        font-size: .9rem;
+    }
+    .list-one{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    .list-two{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+    .list-three{
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+    .list-four{
+        grid-column: 1/2;
+        grid-row: 4;
+        height: 10rem;
+    
+    }
+}

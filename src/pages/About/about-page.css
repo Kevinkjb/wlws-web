@@ -1,0 +1,235 @@
+
+.hero-sub{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/background/hero-bg.webp');
+    position: relative;
+    z-index: 1;
+    padding: 3rem;
+
+}
+.hero-sub::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: -1;
+    width: 100%;
+    max-width: 100%;
+    height: 25rem;
+}
+.hero-section-two{
+    display: flex;
+    height: 25rem;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section-festival{
+    background-color: #000;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-title{
+    color: #fff;
+    font-family: var(--sub-font);
+    font-size: 3rem;
+}
+
+/* ABOUT PAGE HEADER */
+.about-page-header{
+    width: 12.6rem;
+    max-width: 100%;
+    margin-bottom: 2rem;
+}
+.about-page-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.about-page-hr{
+    color: #000;
+    margin-top: .5rem;
+    border: 2px solid #3088A4;
+    border-bottom: 0;
+}
+.about-page-text{
+    width: 90%;
+    max-width: 100%;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.about-page-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 85rem;
+    max-width: 100%;
+    margin: 8rem auto 5rem;
+    padding: 2rem;
+}
+
+/* ABOUT IMAGE SECTION */
+.about-page-container{
+    position: relative;
+
+}
+.about-page-img-containter{
+    width: 40rem;
+    max-width: 100%;
+    height: 40rem;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+.about-page-img{
+    width: 40rem;
+    max-width: 100%;
+    height: 40rem;
+    object-fit: cover;
+}
+.about-box{
+    background-color: #3271AA;
+    width: 40rem;
+    max-width: 100%;
+    height: 40rem;
+    position: absolute;
+    right: -3rem;
+    top: -3rem;
+    z-index: -1;
+}
+.about-hr{
+    width: 70rem;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .about-page-img-containter{
+        width: 35rem;
+        height: 35rem;
+    }
+    .about-page-img{
+        width: 35rem;
+        height: 35rem;
+    }
+    .about-box{
+        width: 35rem;
+        height: 35rem;
+    }
+    .about-page-section{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .about-page-img-containter,
+    .about-page-img{
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .about-box{
+        width: 30rem;
+        height: 30rem;
+    }
+    .about-page-text{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 870px) {
+    .about-page-img-containter,
+    .about-page-img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+
+    .about-box{
+        width: 25rem;
+        height: 25rem;
+    }
+
+}
+@media screen and (max-width: 780px) {
+    .about-page-section{
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        width: 42rem;
+        padding: 2rem;
+    }
+    .about-page-img-containter,
+    .about-page-img{
+        width: 38rem;
+        height: 25rem;
+        margin-bottom: 2rem;
+    }
+
+    .about-box{
+        display: none;
+    }
+}
+@media screen and (max-width: 680px) {
+    .about-page-section{
+        width: 36rem;
+    }
+    .about-page-img-containter,
+    .about-page-img{
+        width: 32rem;
+        height: 25rem;
+    }
+}
+@media screen and (max-width: 590px) {
+    .about-page-section{
+        width: 30rem;
+        padding: 1rem;
+    }
+    .about-page-img-containter,
+    .about-page-img{
+        width: 28rem;
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 490px) {
+    .about-page-section{
+        width: 24rem;
+        padding: 1rem;
+    }
+    .about-page-img-containter,
+    .about-page-img{
+        width: 22rem;
+        height: 20rem;
+    }
+
+    .about-page-text{
+        width: 22rem;
+    }
+}
+@media screen and (max-width: 387px) {
+    .about-page-section{
+        width: 22rem;
+        padding: 1rem;
+    }
+    .about-page-img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .about-page-text{
+        width: 20rem;
+    }
+}

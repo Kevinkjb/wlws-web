@@ -1,0 +1,109 @@
+.services-list-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65rem;
+    max-width: 100%;
+    margin: 5rem auto;
+}
+.service-list{
+    margin: 5rem 0;
+
+}
+.service-list-img{
+    width: 20rem;
+    height: 20rem;
+}
+.service-list-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.service-list-text{
+    width: 40rem;
+    max-width: 100%;
+    line-height: 1.8;
+    font-size: 1.1rem;
+
+}
+@media screen and (max-width: 1120px) {
+    .service-list{
+        width: 58rem;
+    }
+    .service-list-text{
+        width: 35rem;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .service-list{
+        width: 50rem;
+    }
+    .service-list-text{
+        width: 26rem;
+    }
+}
+@media screen and (max-width: 870px) {
+    .service-list{
+        width: 48rem;
+    }
+    .service-list-text{
+        width: 26rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 840px) {
+    .service-list{
+        width: 45rem;
+    }
+    .service-list-text{
+        width: 22rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 840px) {
+    .service-content{
+        flex-direction: column;
+        width: 25rem;
+        align-items: flex-start;
+    }
+    .service-list{
+        width: 45rem;
+    }
+    .service-list-text{
+        width: 22rem;
+        font-size: 1rem;
+    }
+    .service-list-img{
+        width: 25rem;
+        height: 25rem;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 470px) {
+    .services-list-section{
+        padding: 1rem;
+    }
+    .service-content{
+        width: 20rem;
+    }
+    .service-list{
+        width: 45rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .service-list-text{
+        width: 20rem;
+        font-size: .9rem;
+    }
+    .service-list-img{
+        width: 20rem;
+        height: 20rem;
+    }
+}

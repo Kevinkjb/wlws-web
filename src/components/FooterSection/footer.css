@@ -1,0 +1,227 @@
+.footer-container{
+    background-color: #3088A4;
+    color: #fff;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    width: 90rem;
+    max-width: 100%;
+    margin: 5rem auto;
+}
+.footer-item{
+    padding-left: 0;
+}
+
+.footer-img{
+    width: 10rem;
+    height: 10rem;
+}
+.footer-text{
+    width: 16rem;
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+.footer-title{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.footer-list-section{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+    max-width: 100%;
+}
+.footer-list{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.footer-social-link:hover{
+    color: rgb(255, 174, 18);
+}
+.footer-link{
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.footer-link:hover{
+    color: rgb(255, 174, 18);
+}
+.footer-social-link{
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+.footer-social-fb{
+    color: #fff;
+}
+.footer-phone,
+.footer-mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-icon{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.copyrights{
+    background-color: #3088A4;
+    color: #fff;
+    text-align: center;
+}
+.copyrights p{
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+.copy-link{
+    color: rgb(255, 174, 18);
+    font-weight: 500;
+    text-decoration: none;
+}
+.copy-link:hover{
+    color: #000;
+}
+@media screen and (max-width: 1200px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-section{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+        width: 90rem;
+        max-width: 100%;
+        gap: 3rem;
+        margin: 1rem 0;
+    }
+    .footer-container{
+        background-color: #3088A4;
+        color: #fff;
+        height: 100%;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    .join-link{
+        grid-column: 3/4;
+    }
+    
+}
+@media screen and (max-width: 970px) {
+    .footer-section{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 1fr 1fr;
+        margin: 1rem 0;
+    }
+
+    .join-link{
+        grid-column: 3/4;
+        grid-row: 1;
+    }
+    .footer-contact{
+        grid-column: 2/3;
+    }
+}
+@media screen and (max-width: 870px) {
+    .footer-section{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-content: center;
+        margin: 1rem auto;
+        width: 31rem;
+    }
+    .footer-logo{
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+    .quick-links{
+        grid-column: 1/2;
+        grid-row: 2;
+    }
+
+    .join-link{
+        grid-column: 1/2;
+        grid-row: 3;
+        height: 8rem;
+    }
+    .footer-contact{
+        grid-column: 1/2;
+    }
+
+    .join-link{
+        grid-column: 2/3;
+        grid-row: 2;
+
+    }
+    .footer-contact{
+        grid-column: 1/2;
+        grid-row: 3;
+    }
+}
+@media screen and (max-width: 550px) {
+    .footer-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 8rem 1fr;
+        margin: 1rem 0;
+        width: 42rem;
+    }
+    .footer-logo{
+        grid-column: 1/2;
+    }
+
+    .join-link{
+        grid-column: 1/2;
+        grid-row: 3;
+        height: 8rem;
+    }
+    .footer-contact{
+        grid-column: 1/2;
+        grid-row: 4;
+    }
+}
+@media screen and (max-width: 400px) {
+    .footer-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 8rem 1fr;
+        margin: 1rem 0;
+        width: 42rem;
+    }
+    .footer-container{
+        padding: 1rem;
+    }
+    .footer-logo{
+        grid-column: 1/2;
+    }
+
+    .join-link{
+        grid-column: 1/2;
+        grid-row: 3;
+        height: 8rem;
+    }
+    .footer-contact{
+        grid-column: 1/2;
+        grid-row: 4;
+    }
+    .footer-email{
+        font-size: .9rem;
+    }
+}

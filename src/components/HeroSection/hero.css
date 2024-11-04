@@ -50,7 +50,7 @@
 
 .overlay {
     /* Overlay styles if needed */
-    background: rgba(0, 0, 0, 0.3); /* Semi-transparent overlay for text */
+    background: rgba(0, 0, 0, 0.2); /* Semi-transparent overlay for text */
     position: relative;
     top: 0;
     left: 0;

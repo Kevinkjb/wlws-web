@@ -75,10 +75,10 @@ const Footer = () => {
           <p className="footer-title">Join Us</p>
           <ul className="footer-item">
               <li className="footer-list">
-                  <a className="footer-social-link" href="">Performers</a>
+                  <a className="footer-social-link" href="#">Performers</a>
               </li>
               <li className="footer-list">
-                  <a className="footer-social-link" href="">Vendors</a>
+                  <a className="footer-social-link" href="#">Vendors</a>
               </li>
           </ul>
       </div>

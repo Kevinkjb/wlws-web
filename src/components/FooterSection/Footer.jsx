@@ -63,8 +63,8 @@ const Footer = () => {
           </div>
           <div className="social-icon" style={{marginTop: '2rem'}}>
               <p className="footer-title">Follow Us</p>
-              <a href="https://www.facebook.com/p/wetaskiwin-united-heritage-festival-61554739525516/" className="footer-social-fb" target="_blank">
-                  <FaFacebook className="footer-icon"/>
+              <a href="https://www.facebook.com/p/wetaskiwin-united-heritage-festival-61554739525516/" className="footer-social-fb" target="_blank" alt="Facebook" aria-label="Facebook Link">
+                  <FaFacebook className="footer-icon" alt="Facebook"/>
               </a>
               
           </div>

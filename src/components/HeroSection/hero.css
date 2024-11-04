@@ -43,7 +43,7 @@
 /* SLIDER */
 .hero-slider {
     background-size: cover;
-    background-position: 100% 10%;
+    background-position: center;
     height: 50rem; /* adjust as needed */
     width: 100%;
 }

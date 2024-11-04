@@ -4,7 +4,7 @@ import MemberList from '../../components/MemberList/MemberList'
 import MissionSection from '../../components/MissionSection/MissionSection'
 import './about-page.css'
 import Navbar from '../../components/Navbar/Navbar';
-import aboutImage from '../../images/background/about.jpg'
+import aboutImage from '../../images/background/about.png'
 const AboutPage = () => {
   return (
     <div>

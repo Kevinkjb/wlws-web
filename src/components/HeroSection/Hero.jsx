@@ -1,6 +1,6 @@
 import './hero.css'
 import { useState, useEffect } from 'react';
-import imageOne from '../../images/background/hero-bg.svg'
+import imageOne from '../../images/background/hero3.webp'
 import imageTwo from '../../images/background/hero-bg2.png'
 
 const Hero = () => {

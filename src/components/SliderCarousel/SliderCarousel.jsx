@@ -105,7 +105,7 @@ const sliderImageUrl = [
   const SliderCarousel = () => {
     return (
 <div className="parent">
-            <h2 className="slide-title">Fundraising Gallery</h2>
+            <h2 className="slide-title">WFCF Members</h2>
             <Carousel
               responsive={responsive}
               autoPlay={true}

@@ -1,5 +1,5 @@
 import './about-home.css';
-import aboutImage from './about.jpg'
+import aboutImage from './about.png'
 
 const AboutHome = () => {
   return (

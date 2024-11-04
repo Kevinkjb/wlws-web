@@ -1,21 +1,22 @@
 import Footer from "../../components/FooterSection/Footer";
 import NavbarTwo from "../../components/Navbar/NavbarTwo";
 import './events-page.css';
-import performer1 from '../../images/performers/performer.jpg';
-import performer2 from '../../images/performers/performer1.jpg';
-import performer3 from '../../images/performers/performer2.jpg';
-import vendor1 from '../../images/vendors/vendor.jpg';
-import vendor2 from '../../images/vendors/vendor1.jpeg';
-import vendor3 from '../../images/vendors/vendor3.jpg';
-import ride1 from '../../images/rides/ride1.jpg';
-import ride2 from '../../images/rides/ride2.jpg';
-import ride3 from '../../images/rides/ride3.jpg';
+import performer1 from '../../images/performers/performer.png';
+import performer2 from '../../images/performers/performer1.png';
+import performer3 from '../../images/performers/performer2.png';
+import vendor1 from '../../images/vendors/vendor.png';
+import vendor2 from '../../images/vendors/vendor1.png';
+import vendor3 from '../../images/vendors/vendor2.png';
+import ride1 from '../../images/rides/ride.png';
+import ride2 from '../../images/rides/ride1.png';
+import ride3 from '../../images/rides/ride2.png';
 import wfcf from '../../images/members/wfcf.jpg';
-import wehoops1 from '../../images/wehoops/wehoops1.jpg';
-import wehoops2 from '../../images/wehoops/wehoops2.jpg'
-import wehoops3 from '../../images/wehoops/wehoops3.jpg'
+import wehoops1 from '../../images/wehoops/wehoops.png';
+import wehoops2 from '../../images/wehoops/wehoops1.jpg'
+import wehoops3 from '../../images/wehoops/wehoops1.png'
 import { useState } from 'react';
 import Wfcf from "../../components/SliderCarousel/SliderCarousel";
+import Arts from "../../components/SliderCarousel/SliderCarouselTwo";
 import Modal from "./Modal/Modal";
 const EventsPage = () => {
   const [showModal, setShowModal] = useState(false);
@@ -41,7 +42,7 @@ const EventsPage = () => {
             <div className="festival-title-container">
                 <h2 className="festival-title">Festival</h2>
                 <div className="sub-container">
-                    <p className="festival-subtitle">JOIN Us</p>
+                    <p className="festival-subtitle">JOIN US</p>
                     <hr className="festival-hr"/>
                 </div>
             </div>
@@ -170,7 +171,7 @@ const EventsPage = () => {
             <div className="wfcf-title-container">
                 <h2 className="wfcf-title">WFCF</h2>
                 <div className="wfcf-sub-container">
-                    <p className="wfcf-subtitle">JOIN Us</p>
+                    <p className="wfcf-subtitle">JOIN US</p>
                     <hr className="wfcf-hr"/>
                 </div>
             </div>
@@ -184,11 +185,15 @@ const EventsPage = () => {
           <div className="wfcf-one">
             <img className="wfcf-img" src={wfcf} alt="" onClick={() => openModal('wfcf')}/>
           </div>
+          <div className="wfcf-one">
+            <img className="wfcf-img" src={wfcf} alt="" onClick={() => openModal('arts')}/>
+          </div>
           {/* <div className="wfcf-two">
             <img className="wfcf-img" src={wfcf} alt="" onClick={() => openModal('wehoops')}/>
           </div> */}
           <Modal show={showModal} onClose={closeModal}>
             {activeSlide === 'wfcf' && <Wfcf/>}
+            {activeSlide === 'arts' && <Arts/>}
           </Modal>
         </div>
         <p className="wfcf-subtext">
@@ -207,7 +212,7 @@ const EventsPage = () => {
             <div className="wehoops-title-container">
                 <h2 className="wehoops-title">WEHoopS</h2>
                 <div className="wehoops-sub-container">
-                    <p className="wehoops-subtitle">JOIN Us</p>
+                    <p className="wehoops-subtitle">JOIN US</p>
                     <hr className="wehoops-hr"/>
                 </div>
             </div>

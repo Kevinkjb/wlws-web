@@ -54,6 +54,10 @@
 .cta-btn:hover{
     width: 12rem;
 }
+.cta-link{
+    text-decoration: none;
+    color: #000;
+}
 
 @media screen and (max-width: 670px) {
     .cta-text{

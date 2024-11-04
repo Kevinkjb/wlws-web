@@ -10,9 +10,13 @@ const CallToAction = () => {
             Join us for a day of fun, food, and live entertainment.  
             {` Bring your friends, family, and neighbours - let's make a difference together!`}
         </p>
-        <Link to="/events">
-          <button className='cta-btn'>Learn More</button>
-        </Link>
+
+          <button className='cta-btn'>
+            <Link to="/events" className='cta-link'>
+              Learn More
+            </Link>
+          </button>
+
 
       </div>
     </div>

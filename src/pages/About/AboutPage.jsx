@@ -23,22 +23,16 @@ const AboutPage = () => {
           </div>
           <div className="about-page-info">
             <p className='about-page-text'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-              Proin diam  mauris, ornare ut finibus id, semper non purus. 
-              Mauris luctus ligula a  odio congue pharetra. 
-              In hac habitasse platea dictumst. 
-              Fusce faucibus tellus sed nulla feugiat mollis suscipit et sapien. 
-              Quisque fermentum  mauris in convallis egestas. 
-              Ut ultricies erat at venenatis rutrum. 
+            {
+              `Wetaskiwin Literacy & Wellness Services Ltd is a registered nonprofit company that is dedicated primarily to addressing the 
+              foundational needs that enhance an individual's quality of life and contribute to the overall health and progress of the community. 
+              By combining literacy and wellness initiatives, communities can create a holistic approach to improving quality of life and fostering sustainable development. `
+            }
             </p>
             <p className='about-page-text'>
-              Donec id congue elit, at feugiat mi. 
-              Donec et lorem faucibus leo tempor  dapibus. 
-              Nullam tempus ante quam, nec posuere sem condimentum eget. 
-              Cras sollicitudin, dui sit amet feugiat tristique, 
-              neque tortor interdum  tortor, malesuada volutpat 
-              augue purus sit amet mauris. 
-              Morbi semper in  ex ac dictum.
+              In essence, literacy and wellness programs work hand in hand to build stronger, healthier, and more educated communities. 
+              They help people achieve personal and economic goals, foster self-reliance, resilience, create a society that values knowledge, well-being, 
+              and inclusivity, promoting a culture of empowerment resulting in a better quality of life for all.
             </p>
           </div>
         </div>

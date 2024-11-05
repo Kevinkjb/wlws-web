@@ -11,16 +11,21 @@ const MissionSection = () => {
                 <img className='mission-img' src={mission} alt="Our Mission" />
                 <p className="mission-title">Our Mission</p>
                 <p className="mission-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin diam  mauris, ornare ut finibus id, semper non purus.
+                  Literacy Programs aim to provide individuals with essential skills which enable them to access information, participate in society, 
+                  foster a sense of self-worth, inclusion, and secure employment. These skills empower people to make informed decisions and achieve independence.
+                </p>
+                <p className="mission-text">
+                  Wellness Programs aim to teach individuals how to take care of their physical, mental, and Wellness emotional well-being. 
+                  This knowledge helps people build resilience, reduce stress, and maintain a balanced lifestyle, 
+                  which can improve their overall well-being and productivity. This also promotes healthier relationships, communication, and empathy in society.
                 </p>
             </div>
             <div className="vision">
                 <img className='vision-img' src={vision} alt="Our Mission" />
                 <p className="vision-title">Our Vision</p>
                 <p className="vision-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Proin diam  mauris, ornare ut finibus id
+                  All individuals have the knowledge, skills and resources needed to lead informed, 
+                  healthy, and fulfilling lives where every person has the support needed to thrive.
                 </p>
             </div>
             <div className="values">

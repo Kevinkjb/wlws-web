@@ -34,9 +34,15 @@
 }
 .about-text{
     font-size: 1.1rem;
-    line-height: 2;
-    margin: 1rem 0 2rem 0;
+    line-height: 1.6;
+    /* margin: 1rem 0 2rem 0; */
     color: #616161;
+}
+.about-home-link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .about-btn{
     background-color: #3088A4;
@@ -147,7 +153,8 @@
     }
     .about-text{
         font-size: 1rem;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
+        line-height: 1.8;
     }
     .about-home-header{
         width: 24.4rem;

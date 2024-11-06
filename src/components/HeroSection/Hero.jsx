@@ -30,7 +30,7 @@ const Hero = () => {
     <div className="overlay">
       <div className="hero-section">
           <div className="hero-container">
-           <h1 className="hero-title">Be An Catalyst Of Change And Together, We Build A <span style={{color: '#FFAE12'}}>Peaceful</span> Community</h1>
+           <h1 className="hero-title">Be A Catalyst Of Change And Together, We Build A <span style={{color: '#FFAE12'}}>Peaceful</span> Community</h1>
          </div>
      </div>
     </div>

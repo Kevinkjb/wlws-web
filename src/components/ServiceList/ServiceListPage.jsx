@@ -44,7 +44,7 @@ const ServiceListPage = () => {
                  
             </div>
             <div className="service-content">
-                <img src={imageFour} alt="" className="service-list-img" /> 
+                <img src={imageSix} alt="" className="service-list-img" /> 
                 <div className="service-list-info">
                     <p className='service-list-title'>Youth Wellness</p>
                     <p className='service-list-text'>
@@ -55,7 +55,7 @@ const ServiceListPage = () => {
                 
             </div>
             <div className="service-content">
-                <img src={imageFive} alt="" className="service-list-img" />
+                <img src={imageFour} alt="" className="service-list-img" />
                 <div className="service-list-info">
                     <p className='service-list-title'>Adult & Seniors Wellness</p>
                     <p className='service-list-text'>
@@ -66,9 +66,9 @@ const ServiceListPage = () => {
                 
             </div>
             <div className="service-content">
-                <img src={imageSix} alt="" className="service-list-img" />
+                <img src={imageFive} alt="" className="service-list-img" />
                 <div className="service-list-info">
-                    <p className='service-list-title'>Tutorial & Document Services </p>
+                    <p className='service-list-title'>Tutorial Services </p>
                     <p className='service-list-text'>
                         Eagerly exploring Document Services to find effective and 
                         dependable solutions for a variety of document-related requirements.

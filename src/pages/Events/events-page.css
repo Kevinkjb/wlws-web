@@ -62,7 +62,8 @@
 .vendors-section,
 .rides-section,
 .event-sponsor-section,
-.wehoops-section{
+.wehoops-section,
+.volunteer-section{
     width: 85rem;
     max-width: 100%;
     margin: 2rem auto 3rem auto;
@@ -85,7 +86,8 @@
 .performers-list, 
 .vendors-list,
 .rides-list,
-.wehoops-list{
+.wehoops-list,
+.volunteer-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -119,6 +121,9 @@
 .rides-header{
     width: 5.2rem;
 }
+.volunteer-header{
+    width: 10rem;
+}
 .event-sponsor-header{
 
     width: 8.5rem;
@@ -126,7 +131,8 @@
 .performers-title,
 .vendors-title,
 .rides-title,
-.event-sponsor-title{
+.event-sponsor-title,
+.volunteer-title{
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 0;
@@ -134,7 +140,8 @@
 .performers-hr,
 .vendors-hr,
 .rides-hr,
-.event-sponsor-hr{
+.event-sponsor-hr,
+.volunteer-hr{
     color: #000;
     margin-top: .2rem;
     border: 2px solid #3088A4;
@@ -151,7 +158,7 @@
 } */
 
 
-.performer-img, .vendor-img, .rides-img, .wehoops-img{
+.performer-img, .vendor-img, .rides-img, .wehoops-img, .volunteer-img{
     width: 25rem;
     height: 30rem;
     object-fit: cover;
@@ -220,7 +227,7 @@
 /* EVENTS HERO SECTION */
 .hero-section-festival{
     
-    background-position: center;
+    background-position: 100% 70%;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -228,7 +235,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('../../images/background/events.png');
+    background-image: url('../../images/background/events2.png');
     position: relative;
     z-index: 1;
     padding: 3rem;
@@ -274,38 +281,7 @@
     height: 100%;
 }
 
-/* DONATION SECTION */
-.donation-section{
-    background-color: #000;
-    height: 18rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.donation-info{
-    text-align: center;
-    padding: 1.5rem;
-    max-width: 100%;
-}
-.donation-text{
-    color: #fff;
-    font-size: 1.3rem;
-    width: 50rem;
-    max-width: 100%;
-    line-height: 1.8;
-    margin-bottom: 2rem;
-}
-.donation-btn{
-    background-color: #3088A4;
-    color: #fff;
-    width: 12rem;
-    height: 2.6rem;
-    border: none;
-    font-size: 1rem;
-    font-weight: 500;
-    cursor: pointer;
-    border-radius: 5px;
-}
+
 
 @media screen and (max-width: 1300px) {
 
@@ -439,6 +415,12 @@
     .donation-info{
         padding: 1rem;
     }
+    .donation-email-info p {
+        font-size: .9rem;
+    }
+    .donation-email-info a {
+        font-size: .9rem;
+    }
 }
 @media screen and (max-width: 570px) {
     .performers-list, 
@@ -510,5 +492,21 @@
         grid-row: 4;
         height: 10rem;
     
+    }
+}
+@media screen and (max-width: 450px) {
+    .donation-email-info{
+        flex-direction: column;
+    }
+    .donation-text{
+        text-align: center;
+    }
+    .donation-email-info p {
+        margin-left: 0;
+        margin-bottom: .3rem;
+    }
+    .donation-email-info a {
+        margin-left: 0;
+        margin-bottom: .3rem;
     }
 }

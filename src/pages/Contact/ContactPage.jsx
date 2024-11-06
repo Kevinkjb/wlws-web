@@ -46,8 +46,8 @@ const ContactPage = () => {
     const formErrors = validateForm();
     if (Object.keys(formErrors).length === 0) {
       emailjs
-        .sendForm('', '', form.current, {
-          publicKey: '',
+        .sendForm('service_jn6uyzb', 'template_w2yyw54', form.current, {
+          publicKey: 'DzxLfS6Nm1Vih1ick',
         })
         .then(
           () => {

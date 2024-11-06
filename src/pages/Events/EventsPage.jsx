@@ -10,6 +10,7 @@ import vendor3 from '../../images/vendors/vendor2.png';
 import ride1 from '../../images/rides/ride.png';
 import ride2 from '../../images/rides/ride1.png';
 import ride3 from '../../images/rides/ride2.png';
+import volunteer1 from '../../images/volunteer/volunteer1.png';
 import wfcf from '../../images/members/wfcf.jpg';
 import wehoops1 from '../../images/wehoops/wehoops.png';
 import wehoops2 from '../../images/wehoops/wehoops1.jpg'
@@ -118,10 +119,29 @@ const EventsPage = () => {
           </div>
         </div>
       </div>
+      {/* VOLUNTEER SECTION */}
+            <div className="volunteer-section">
+        <div className="volunteer-header">
+          <p className="volunteer-title">Volunteers</p>
+          <hr className="volunteer-hr"/>
+        </div>
+        {/* VOLUNTEER LIST */}
+        <div className="volunteer-list">
+          <div className="volunteer-one">
+            <img className="volunteer-img" src={volunteer1} alt="Volunteer Image" />
+          </div>
+          {/* <div className="rides-two">
+            <img className="rides-img" src={ride2} alt="Rides Image" />
+          </div>
+          <div className="rides-three">
+            <img className="rides-img" src={ride3} alt="Rides Image" />
+          </div> */}
+        </div>
+      </div>
       {/* SPONSOR SECTION */}
       <div className="event-sponsor-section">
         <div className="event-sponsor-header">
-          <p className="event-sponsor-title">Sponsors</p>
+          <p className="event-sponsor-title">General Sponsors</p>
           <hr className="event-sponsor-hr"/>
         </div>
         {/* SPONSOR LIST */}
@@ -131,31 +151,22 @@ const EventsPage = () => {
               <p>Remax Descover, Wetaskiwin</p>
               <p>EXP Realty by Larry Matira</p>
               <p>Boston Pizza</p>
-              <p>Ptr Bonifacio & Mabelle Somook</p>
               <p>Ireland Sponsor</p>
               <p>Pipe Moore Inc</p>
-              <p>Aquinas College</p>
-              <p>International Motors</p>
             </div>
             <div className="list-two">
-              <p>North Lane</p>
-              <p>Variety Productions</p>
-              <p>E-Sounds</p>
               <p>Refresh Wellness</p>
               <p>GP Glass & Windshield Ltd.</p>
               <p>Heart & Soul Massage</p>
-              <p>DFW Career Services</p>
               <p>Tim Hortons</p>
+              <p>Melvie Visto</p>
             </div>
             <div className="list-three">
               <p>CIBC</p>
               <p>Vision Credit Union</p>
-              <p>Ralcomm</p>
               <p>Pipe Stone</p>
               <p>No Frills</p>
               <p>ELJ</p>
-              <p>Dynacore Medical</p>
-              <p>Melvie Visto</p>
             </div>
             <div className="list-four">
               <p>Loons Golf Course</p>
@@ -244,13 +255,7 @@ const EventsPage = () => {
 
       </div>
       {/* DONATION SECTION */}
-      <div className="donation-section">
-        <div className="donation-info">
-          <p className="donation-text">Your donation will help us continue hosting festivals, educational programs, 
-            and youth development initiatives that make a lasting impact.</p>
-          <button className="donation-btn">Donate Now</button>
-        </div>
-      </div>
+
       <Footer/>
     </>
   )

@@ -7,24 +7,26 @@
 /* FUNDERS AND SPONSORS SECTION */
 .funders,
 .sponsor{
-    width: 90rem;
+    width: 35rem;
     margin: 5rem auto 2rem auto;
     max-width: 100%;
     padding: 2rem;
 }
 .collaborator{
-    width: 90rem;
-    margin: 2rem auto 2rem auto;
+    width: 30rem;
+    margin: 5rem auto 2rem auto;
     max-width: 100%;
     padding: 2rem;
 }
 .funders-header{
     width: 11.5rem;
+    margin: 0 auto;
     max-width: 100%;
     margin-bottom: 2rem;
 }
 .collaborator-header{
     width: 12rem;
+    margin: 0 auto;
     max-width: 100%;
     margin-bottom: 2rem;
 }
@@ -94,6 +96,89 @@
 .collab-logo:hover,
 .sponsor-logo:hover{
     transform: scale(1.1);
+}
+/* DONATION SECTION */
+
+.donation-section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/background/donation.png');
+    position: relative;
+    z-index: 1;
+}
+.donation-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+    width: 100%;
+    max-width: 100%;
+    height: 25rem;
+}
+
+.donation-info{
+
+    padding: 1.5rem;
+    max-width: 100%;
+}
+.donation-text{
+    color: #fff;
+    font-size: 1.3rem;
+    width: 50rem;
+    max-width: 100%;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+
+}
+.donation-btn{
+    background-color: #3088A4;
+    color: #fff;
+    width: 12rem;
+    height: 2.6rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: all .3s ease;
+}
+.donation-btn:hover{
+    width: 13rem;
+}
+.donation-box{
+    display: flex;
+    flex-direction: column;
+}
+.donation-email{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+.donation-email-info p{
+    margin-bottom: 0;
+}
+.donation-email-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
 

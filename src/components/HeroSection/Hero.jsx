@@ -1,6 +1,6 @@
 import './hero.css'
 import { useState, useEffect } from 'react';
-import imageOne from '../../images/background/hero3.webp'
+import imageOne from '../../images/background/hero4.png'
 import imageTwo from '../../images/background/hero-bg2.png'
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
     <div className="overlay">
       <div className="hero-section">
           <div className="hero-container">
-           <h1 className="hero-title">Be An Agent Of Change And Together, We Build A <span style={{color: '#FFAE12'}}>Peaceful</span> Community</h1>
+           <h1 className="hero-title">Be A <span style={{color: '#FFAE12'}}>Catalyst</span> Of Change And Together, We Build A <span style={{color: '#FFAE12'}}>Peaceful</span> Community</h1>
          </div>
      </div>
     </div>

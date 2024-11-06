@@ -1,19 +1,23 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import imageOne from '../../images/wfcf/Alexis.png'
-import imageTwo from '../../images/wfcf/Armie.png'
-import imageThree from '../../images/wfcf/Arnel.png'
-import imageFour from '../../images/wfcf/Boni.png'
-import imageFive from '../../images/wfcf/Charina.png'
-import imageSix from '../../images/wfcf/Janet.png'
-import imageSeven from '../../images/wfcf/Jen.png'
-import imageEight from '../../images/wfcf/Jerome.png'
-import imageNine from '../../images/wfcf/Romel.png'
-import image10 from '../../images/wfcf/marlon.png'
-import image11 from '../../images/wfcf/gerald.png'
-import image12 from '../../images/wfcf/nelly.png'
-import image13 from '../../images/wfcf/leo.png'
-import image14 from '../../images/wfcf/shirley.png'
+import alexis from '../../images/wfcf/Alexis.png'
+import armie from '../../images/wfcf/Armie.png'
+import arnel from '../../images/wfcf/Arnel.png'
+import boni from '../../images/wfcf/Boni.png'
+import charina from '../../images/wfcf/Charina.png'
+import janet from '../../images/wfcf/Janet.png'
+import adel from '../../images/wfcf/adel.png'
+import jen from '../../images/wfcf/Jen.png'
+import jerome from '../../images/wfcf/Jerome.png'
+import romel from '../../images/wfcf/Romel.png'
+import marlon from '../../images/wfcf/marlon.png'
+import gerald from '../../images/wfcf/gerald.png'
+import nelly from '../../images/wfcf/nelly.png'
+import leo from '../../images/wfcf/leo.png'
+import shirley from '../../images/wfcf/shirley.png'
+import normita from '../../images/wfcf/normita.png'
+import juanita from '../../images/wfcf/juanita.png'
+import art from '../../images/wfcf/art.png'
 import './slider.css'
 const responsive = {
     desktop: {
@@ -36,66 +40,82 @@ const sliderImageUrl = [
     //First image url
     {
       url:
-      image10
+      marlon
     },
     {
       url:
-      imageTwo
+      jen
     },
     //Second image url
     {
       url:
-      imageThree
+      adel
     },
     //Third image url
     {
       url:
-      imageFour
+      gerald
     },
   
     //Fourth image url
   
     {
         url:
-        imageFive
+        normita
     },
     {
         url:
-        imageSix
+        juanita
     },
     {
         url:
-        imageSeven
+        janet
     },
     {
         url:
-        imageEight
+        romel
     },
     {
       url:
-      imageNine
+      alexis
     },
     {
       url:
-      imageOne
+      jerome
     }
     ,
     {
       url:
-      image11
+      leo
     },
     {
       url:
-      image12
+      charina
     }
     ,
     {
       url:
-      image13
+      armie
     },
     {
       url:
-      image14
+      arnel
+    },
+    {
+      url:
+      boni
+    },
+    {
+      url:
+      art
+    },
+    {
+      url:
+      nelly
+    },
+    {
+      url:
+      shirley
     }
 
 

@@ -125,6 +125,24 @@ const HomePage = () => {
       </div>
       <CallToAction/>
       <ServicesSection/>
+      <div className="donation-section" id="donate">
+        <div className="donation-info">
+          <p className="donation-text">Your donation will help us continue hosting festivals, educational programs, 
+            and youth development initiatives that make a lasting impact.</p>
+            <div className="donation-box">
+              <div className="donation-email-info">
+                <p style={{fontWeight: 'bold', color: '#fff'}}>E-Transfer:</p>
+                <a className="donation-email">wetaskiwinliteracyservices@gmail.com</a>
+              </div>
+              <div className="donation-email-info">
+                <p style={{fontWeight: 'bold', color: '#fff'}}>Donate Online:</p>
+                <a className="donation-btn" href="#">Donate Now</a>
+              </div>
+              
+             
+            </div>
+        </div>
+      </div>
       <Footer/>
     </>
 

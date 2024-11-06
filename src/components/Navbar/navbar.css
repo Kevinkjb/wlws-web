@@ -78,6 +78,33 @@
 .close-menu{
     font-size: 1.8rem;
 }
+.donate-list{
+    background-color: #3088A4;
+    width: 11rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.donate-list:hover{
+    background-color: rgb(255, 174, 18);
+    width: 11rem;
+    height: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.donate-link{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 1270px) {
     /* .nav-container{

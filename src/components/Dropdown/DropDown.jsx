@@ -7,6 +7,7 @@ const DropDown = () => {
     <DropdownButton id="dropdown-basic-button" title="Join Us" className="toggle"  variant="none">
       <Dropdown.Item className='drop-item' href="#">Perform</Dropdown.Item>
       <Dropdown.Item className='drop-item' href="#">Vendor</Dropdown.Item>
+      <Dropdown.Item className='drop-item' href="#">Volunteer</Dropdown.Item>
     </DropdownButton>
   )
 }

@@ -46,7 +46,7 @@ const EventsPage = () => {
                     <hr className="festival-hr"/>
                 </div>
             </div>
-            <p className="festival-text">The Wetaskiwin Filipino Community Foundation is thrilled to announce the inaugural Annual Multicultural/United Heritage Festival in the City of Wetaskiwin on June 14-15, 2025, at Jubilee Park.</p>
+            <p className="festival-text">The Wetaskiwin Literacy & Wellness Services LTD is thrilled to announce the Multicultural/Heritage Festival in the City of Wetaskiwin every second weekend of June annually, at Jubilee Park.</p>
       </div>
       {/* PERFORMERS SECTION */}
       <div className="performers-section">

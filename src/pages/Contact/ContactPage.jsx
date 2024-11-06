@@ -47,7 +47,7 @@ const ContactPage = () => {
     if (Object.keys(formErrors).length === 0) {
       emailjs
         .sendForm('service_jn6uyzb', 'template_w2yyw54', form.current, {
-          publicKey: 'DzxLfS6Nm1Vih1ick',
+          publicKey: 'CilIkI11PY2h8aSNF',
         })
         .then(
           () => {

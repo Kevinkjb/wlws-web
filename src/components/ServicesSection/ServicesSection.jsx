@@ -43,7 +43,7 @@ const ServicesSection = () => {
             </Link>
             <Link to="/services">
               <div className="services-box box-five">
-                <p className='menu-one-title'>Document Services</p>
+                <p className='menu-one-title'>Tutorial Services</p>
                   {/* <img className='service-img'  src={service5} alt="" /> */}
               </div>
             </Link>

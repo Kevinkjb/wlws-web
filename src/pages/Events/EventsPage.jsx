@@ -188,7 +188,7 @@ const EventsPage = () => {
                 </div>
             </div>
             <p className="wfcf-text">
-              A registered Non-Profit Organization under the Sociéties Act of Alberta: WFCF promotes UNITY to all Filipinos and Filipino-Canadian 
+              Wetaskiwin Filipino Community Foundation is a registered Non-Profit Organization under the Sociéties Act of Alberta: WFCF promotes UNITY to all Filipinos and Filipino-Canadians 
               in Wetaskiwin and other areas of Alberta by engaging in various programs and activities for the well-being of its members.</p>
       </div>
       <div className="wfcf-section">

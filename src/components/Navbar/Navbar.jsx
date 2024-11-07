@@ -60,7 +60,7 @@ const Navbar = () => {
                     <DropDown/>
                     
                     <li className="nav-list donate-list">
-                        <a className=' donate-link' href='#donate' >Donate Now <FaHeart className='heart-icon'/></a>
+                        <Link className=' donate-link' to="/donate">Donate Now <FaHeart className='heart-icon'/></Link>
                     </li>
                 </ul>
                 <div className='nav-button' onClick={() => setBurgerMenu(!burgerMenu)}>

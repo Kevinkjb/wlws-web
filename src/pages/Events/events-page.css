@@ -409,18 +409,7 @@
     .events-hero-section{
         height: 20rem;
     }
-    .donation-text{
-        font-size: 1rem;
-    }
-    .donation-info{
-        padding: 1rem;
-    }
-    .donation-email-info p {
-        font-size: .9rem;
-    }
-    .donation-email-info a {
-        font-size: .9rem;
-    }
+
 }
 @media screen and (max-width: 570px) {
     .performers-list, 
@@ -493,21 +482,5 @@
         grid-row: 4;
         height: 10rem;
     
-    }
-}
-@media screen and (max-width: 450px) {
-    .donation-email-info{
-        flex-direction: column;
-    }
-    .donation-text{
-        text-align: center;
-    }
-    .donation-email-info p {
-        margin-left: 0;
-        margin-bottom: .3rem;
-    }
-    .donation-email-info a {
-        margin-left: 0;
-        margin-bottom: .3rem;
     }
 }

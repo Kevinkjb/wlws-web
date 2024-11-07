@@ -40,7 +40,7 @@ const Footer = () => {
                       <Link to="/contact" className="footer-link">Contact Us</Link>
                   </li>
                   <li className="footer-list">
-                      <a className="footer-link" href="#">Donate Now</a>
+                      <Link className="footer-link" to="/donate">Donate Now</Link>
                   </li>
               </ul>
           </div>
@@ -54,11 +54,11 @@ const Footer = () => {
           <div className="footer-icon-container">
               <div className="footer-phone">
                   <IoMdPhonePortrait className="footer-icon"/>
-                  <p>780-362-0909</p>
+                  <a  href="tel:7803620909">780-362-0909</a>
               </div>
               <div className="footer-mail">
                   <FaEnvelope className="footer-icon"/>
-                  <span className="footer-email">wetaskiwinliteracyservices@gmail.com</span>
+                  <a className="footer-email" href="mailto:wetaskiwinliteracyservices@gmail.com">wetaskiwinliteracyservices@gmail.com</a>
               </div>
           </div>
           <div className="social-icon" style={{marginTop: '2rem'}}>

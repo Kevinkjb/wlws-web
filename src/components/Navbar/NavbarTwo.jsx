@@ -45,7 +45,7 @@ const NavbarTwo = () => {
                 </li>
                 <DropDown/>
                 <li className="nav-list" >
-                    <a className='nav-link' href='#' target='_blank' >Donate Now <FaHeart className='heart-icon'/></a>
+                    <Link className=' donate-link' to="/donate">Donate Now <FaHeart className='heart-icon'/></Link>
                 </li>
             </ul>
             <div className='nav-button' onClick={() => setBurgerMenu(!burgerMenu)}>

@@ -100,7 +100,7 @@
     transform: scale(1.1);
 }
 /* DONATION SECTION */
-
+/* 
 .donation-section{
     background-position: center;
     background-repeat: no-repeat;
@@ -183,7 +183,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 1rem;
-}
+} */
 
 
 
@@ -266,23 +266,7 @@
         margin: 0 auto;
         padding: 1rem;
     }
-    .donation-email-info{
-        flex-direction: column;
-    }
-    .donation-text{
-        text-align: center;
-        font-size: .9rem;
-    }
-    .donation-email-info p {
-        margin-left: 0;
-        margin-bottom: .3rem;
-        font-size: .9rem;
-    }
-    .donation-email-info a {
-        margin-left: 0;
-        margin-bottom: .3rem;
-        font-size: .9rem;
-    }
+
 }
 @media screen and (max-width: 490px) {
     .funders-container{

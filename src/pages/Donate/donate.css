@@ -1,0 +1,183 @@
+/* DONATION SECTION */
+
+.donation-section{
+    width: 90rem;
+    margin: 5rem auto;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+
+.donation-info{
+    max-width: 100%;
+}
+.donation-text{
+    color: #000;
+    font-size: 1.3rem;
+    width: 35rem;
+    max-width: 100%;
+    line-height: 1.8;
+    margin-bottom: 3rem;
+
+}
+.donate-img{
+    width: 40rem;
+}
+.donation-btn{
+    background-color: #3088A4;
+    color: #fff;
+    width: 12rem;
+    height: 2.6rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: all .3s ease;
+}
+.donation-btn:hover{
+    width: 13rem;
+}
+.donation-box{
+    display: flex;
+    flex-direction: column;
+}
+.donation-email{
+    color: #000;
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.donation-email-info p{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    color: #000;
+}
+.donation-email-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+@media screen and (max-width: 1270px) {
+    .donation-text{
+        font-size: 1.1rem;
+        width: 30rem;
+    
+    }
+    .donate-img{
+        width: 30rem;
+    }
+    .donation-email-info p{
+        font-size: 1rem;
+    }
+    .donation-email{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .donation-text{
+        font-size: 1.1rem;
+        width: 22rem;
+    
+    }
+    .donate-img{
+        width: 25rem;
+    }
+    .donation-email-info p{
+        font-size: .9rem;
+    }
+    .donation-email{
+        font-size: .9rem;
+    }
+}
+@media screen and (max-width: 930px) {
+    .donation-section{
+        width: 40rem;
+        flex-direction: column-reverse;
+    }
+    .donation-text{
+        font-size: 1.1rem;
+        width: 35rem;
+        margin-top: 1rem;
+    
+    }
+    .donate-img{
+        width: 35rem;
+    }
+    .donation-email-info p,
+    .donation-email{
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .donation-section{
+        width: 35rem;
+    }
+    .donation-text{
+        font-size: .9rem;
+        width: 30rem;
+    }
+    .donate-img{
+        width: 30rem;
+    }
+    .donation-email-info p,
+    .donation-email{
+        font-size: .8rem;
+    }
+
+}
+@media screen and (max-width: 560px) {
+    .donation-section{
+        width: 35rem;
+        padding: 1rem;
+    }
+
+    .donation-email-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .donation-text{
+        font-size: .9rem;
+    }
+    .donation-email-info p {
+        margin-left: 0;
+        margin-bottom: .3rem;
+        font-size: .9rem;
+    }
+    .donation-email-info a {
+        margin-left: 0;
+        margin-bottom: .3rem;
+        font-size: .9rem;
+    }
+    .donate-img{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 560px) {
+    .donation-section{
+        width: 35rem;
+        padding: 1rem;
+    }
+    .donate-img{
+        width: 100%;
+    }
+    .donation-email-info p {
+        font-size: .8rem;
+    }
+    .donation-email-info a {
+        font-size: .8rem;
+    }
+}

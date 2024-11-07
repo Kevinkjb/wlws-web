@@ -11,6 +11,7 @@ import AboutPage from './pages/About/AboutPage'
 // import EventsPage from './pages/Events/EventsPage'
 // import ContactPage from './pages/Contact/ContactPage'
 import {Route, Routes} from 'react-router-dom'
+import Donate from './pages/Donate/Donate';
 
 
 const loadingStyle = {
@@ -39,6 +40,7 @@ function App() {
           <Route path='/services' element={<ServicesPage/>}/>
           <Route path='/events' element={<EventsPage/>}/>
           <Route path='/contact' element={<ContactPage/>}/>
+          <Route path='/donate' element={<Donate/>}/>
         </Routes>
       </Suspense>
       

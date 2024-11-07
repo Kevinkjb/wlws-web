@@ -56,6 +56,7 @@
     line-height: 1.8;
     color: #fff;
     font-size: 1.1rem;
+    text-align: justify;
 }
 .vision-text{
     /* width: 26rem; */
@@ -63,6 +64,7 @@
     line-height: 1.8;
     color: #fff;
     font-size: 1.1rem;
+    text-align: justify;
 }
 .values-text{
     /* width: 30rem; */
@@ -70,6 +72,7 @@
     line-height: 1.8;
     color: #fff;
     font-size: 1.1rem;
+    text-align: justify;
 }
 .mission-title,
 .vision-title,

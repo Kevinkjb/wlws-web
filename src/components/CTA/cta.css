@@ -38,6 +38,7 @@
     max-width: 100%;
     line-height: 1.8;
     margin: 2rem 0;
+    text-align: justify;
 }
 .cta-btn{
     width: 11rem;

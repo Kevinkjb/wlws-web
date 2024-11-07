@@ -56,12 +56,13 @@
 .festival-text,
 .wehoops-text,
 .wfcf-text{
-    width: 60rem;
+    width: 57rem;
     line-height: 1.8;
     font-size: 1.1rem;
     letter-spacing: 2px;
     color: #616161;
     max-width: 100%;
+    text-align: justify;
 }
 
 /* PERFORMERS / VENDORS / RIDES */
@@ -186,6 +187,7 @@
     margin: 2rem 0;
     color: #616161;
     max-width: 100%;
+    text-align: justify;
 }
 .performer-text-two, .vendors-text-two{
     margin: 2rem 0;

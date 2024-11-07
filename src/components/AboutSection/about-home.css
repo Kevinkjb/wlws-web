@@ -37,6 +37,7 @@
     line-height: 1.6;
     /* margin: 1rem 0 2rem 0; */
     color: #616161;
+    text-align: justify;
 }
 .about-home-link{
     text-decoration: none;

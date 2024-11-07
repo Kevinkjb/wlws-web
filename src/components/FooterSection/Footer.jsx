@@ -80,6 +80,9 @@ const Footer = () => {
               <li className="footer-list">
                   <a className="footer-social-link" href="#">Vendors</a>
               </li>
+              <li className="footer-list">
+                  <a className="footer-social-link" href="#">Volunteers</a>
+              </li>
           </ul>
       </div>
     </div>

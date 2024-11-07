@@ -134,10 +134,10 @@ const HomePage = () => {
                 <p style={{fontWeight: 'bold', color: '#fff'}}>E-Transfer:</p>
                 <a className="donation-email">wetaskiwinliteracyservices@gmail.com</a>
               </div>
-              <div className="donation-email-info">
+              {/* <div className="donation-email-info">
                 <p style={{fontWeight: 'bold', color: '#fff'}}>Donate Online:</p>
                 <a className="donation-btn" href="#">Donate Now</a>
-              </div>
+              </div> */}
               
              
             </div>

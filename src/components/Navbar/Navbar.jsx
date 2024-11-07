@@ -3,14 +3,26 @@ import { useState } from 'react';
 import './navbar.css'
 import {Link} from 'react-router-dom'
 import { FaHeart } from "react-icons/fa";
-
-
+import { useEffect } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import DropDown from '../Dropdown/DropDown';
 
 const Navbar = () => {
     const [burgerMenu, setBurgerMenu] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      setIsScrolled(offset > 50); // Adjust the value to where you want the effect to start
+    };
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+  
     const closeMobile = () => {
         scrollToTop();
         setBurgerMenu(false);
@@ -24,7 +36,7 @@ const Navbar = () => {
       };
   return (
     <>
-        <div className='nav-container'>
+        <div className={`nav-container ${isScrolled ? 'scrolled' : ''}`}>
                 <div className="nav-logo">
                     <Link to="/">
                         <img className='logo' src={logo} alt="WLWS Logo" />
@@ -46,7 +58,7 @@ const Navbar = () => {
                     </li>
 
                     <DropDown/>
-
+                    
                     <li className="nav-list donate-list">
                         <a className=' donate-link' href='#donate' >Donate Now <FaHeart className='heart-icon'/></a>
                     </li>

@@ -10,13 +10,13 @@
     width: 35rem;
     margin: 5rem auto 2rem auto;
     max-width: 100%;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 .collaborator{
-    width: 30rem;
+    width: 35rem;
     margin: 5rem auto 2rem auto;
     max-width: 100%;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 .funders-header{
     width: 11.5rem;
@@ -32,6 +32,7 @@
 }
 .sponsor-header{
     width: 14.2rem;
+    margin: 0 auto;
     max-width: 100%;
     margin-bottom: 2rem;
 }
@@ -67,9 +68,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 25rem;
+    width: 35rem;
     max-width: 100%;
     margin-top: 3rem;  
+    margin: 0 auto;
 }
 
 .funder-box{
@@ -170,9 +172,11 @@
     margin-left: 1rem;
     font-size: 1.1rem;
     letter-spacing: 1px;
+    font-weight: 700;
 }
 .donation-email-info p{
     margin-bottom: 0;
+    font-size: 1.1rem;
 }
 .donation-email-info{
     display: flex;
@@ -234,6 +238,7 @@
     .funders-container{
         width: 35rem;
         max-width: 100%;
+        padding: 1rem;
     }
     .funder-box{
         object-fit: contain;
@@ -253,10 +258,30 @@
     .collaborator-container{
         flex-wrap: wrap;
         width: 25rem;
+        padding: 1rem;
     }
     .sponsor-container{
         flex-wrap: wrap;
         width: 25rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    .donation-email-info{
+        flex-direction: column;
+    }
+    .donation-text{
+        text-align: center;
+        font-size: .9rem;
+    }
+    .donation-email-info p {
+        margin-left: 0;
+        margin-bottom: .3rem;
+        font-size: .9rem;
+    }
+    .donation-email-info a {
+        margin-left: 0;
+        margin-bottom: .3rem;
+        font-size: .9rem;
     }
 }
 @media screen and (max-width: 490px) {
@@ -283,6 +308,8 @@
     .funders-container{
         flex-wrap: wrap;
         width: 13rem;
+        margin: 0 auto;
+        padding: 0;
     }
     .funder-box{
         width: 13rem;

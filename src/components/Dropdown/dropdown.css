@@ -15,3 +15,6 @@
 .drop-item:hover{
     color: rgb(255, 174, 18);  
 }
+.nav-container.scrolled #dropdown-basic-button{
+    color: #000;
+} 

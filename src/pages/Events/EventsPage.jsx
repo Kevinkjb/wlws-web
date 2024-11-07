@@ -12,6 +12,7 @@ import ride2 from '../../images/rides/ride1.png';
 import ride3 from '../../images/rides/ride2.png';
 import volunteer1 from '../../images/volunteer/volunteer1.png';
 import wfcf from '../../images/members/wfcf.jpg';
+import performingArts from '../../images/performing-arts/header-img.png';
 import wehoops1 from '../../images/wehoops/wehoops.png';
 import wehoops2 from '../../images/wehoops/wehoops1.jpg'
 import wehoops3 from '../../images/wehoops/wehoops1.png'
@@ -194,10 +195,10 @@ const EventsPage = () => {
         {/* WFCF LIST */}
         <div className="wfcf-list">
           <div className="wfcf-one">
-            <img className="wfcf-img" src={wfcf} alt="" onClick={() => openModal('wfcf')}/>
+            <img className="wfcf-img" src={wfcf} alt="WFCF" onClick={() => openModal('wfcf')}/>
           </div>
           <div className="wfcf-one">
-            <img className="wfcf-img" src={wfcf} alt="" onClick={() => openModal('arts')}/>
+            <img className="wfcf-img" src={performingArts} alt="Performing Arts" onClick={() => openModal('arts')}/>
           </div>
           {/* <div className="wfcf-two">
             <img className="wfcf-img" src={wfcf} alt="" onClick={() => openModal('wehoops')}/>
@@ -207,12 +208,12 @@ const EventsPage = () => {
             {activeSlide === 'arts' && <Arts/>}
           </Modal>
         </div>
-        <p className="wfcf-subtext">
+        {/* <p className="wfcf-subtext">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
           Proin diam  mauris, ornare ut finibus id, semper non purus. 
           Mauris luctus ligula a odio congue pharetra. 
           In hac habitasse platea dictumst. 
-        </p>
+        </p> */}
         <a href="https://www.facebook.com/WFCF2018" target="_blank">
           <button className="events-register-btn">Learn More</button>
         </a>

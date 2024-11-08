@@ -7,6 +7,13 @@
     width: 25rem;
     max-width: 100%;
 }
+.nav-logo-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    max-width: 100%; 
+}
 .logo{
     width: 9rem;
     height: 9rem;
@@ -59,6 +66,14 @@
 .nav-container.scrolled .logo {
     width: 5rem;
     height: 5rem;
+}
+
+.nav-container.scrolled .logo-two {
+    width: 6rem;
+    height: 6rem;
+}
+.nav-container.scrolled .nav-logo-two{
+    width: 20rem;
 }
 /* Update link colors when scrolled */
 

@@ -228,7 +228,7 @@ const EventsPage = () => {
                     <hr className="wehoops-hr"/>
                 </div>
             </div>
-            <p className="wehoops-text">WEHooPS is a dedicated non-profit organization commited to festering a love for basketball among young athletes.</p>
+            <p className="wehoops-text">WEHooPS is a dedicated non-profit organization commited to fostering a love for basketball among young athletes.</p>
       </div>
       <div className="wehoops-section">
         {/* WEHOOPS LIST */}

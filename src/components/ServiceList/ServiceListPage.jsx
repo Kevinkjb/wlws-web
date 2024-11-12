@@ -27,7 +27,7 @@ const ServiceListPage = () => {
                     <p className='service-list-title'>Pre-employment Literacy</p>
                     <p className='service-list-text'>Keen on mastering Pre-Employment Literacy, 
                         signaling a proactive approach to boost 
-                        employability and excel in the dynamic professional arena.al growth.
+                        employability and excel in the dynamic professional and personal growth.
                     </p>
                 </div>
                 
@@ -70,8 +70,8 @@ const ServiceListPage = () => {
                 <div className="service-list-info">
                     <p className='service-list-title'>Tutorial Services </p>
                     <p className='service-list-text'>
-                        Eagerly exploring Document Services to find effective and 
-                        dependable solutions for a variety of document-related requirements.
+                        Our dedicated and professional tutors can provide a comprehensive and supportive educational 
+                        experience that help students thrive academically and personally.
                     </p>
                 </div>
                 

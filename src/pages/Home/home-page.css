@@ -7,15 +7,20 @@
 }
 
 /* FUNDERS AND SPONSORS SECTION */
-.funders,
-.sponsor{
+.funders{
     width: 35rem;
     margin: 5rem auto 2rem auto;
     max-width: 100%;
     /* padding: 2rem; */
 }
+.sponsor{
+    width: 80rem;
+    margin: 5rem auto 2rem auto;
+    max-width: 100%;
+    /* padding: 2rem; */
+}
 .collaborator{
-    width: 35rem;
+    width: 25rem;
     margin: 5rem auto 2rem auto;
     max-width: 100%;
     /* padding: 2rem; */
@@ -223,17 +228,16 @@
     .collaborator{
         margin: 5rem auto 1rem auto;
     }
-    .collaborator,
-    .sponsor{
+    .collaborator{
         margin-top: 1rem;
     }
     .sponsor{
-        margin-bottom: 5rem;
+        margin: 4rem 0;
     }
 
     .collab-logo{
-        width: 12rem;
-        height: 12rem;
+        width: 10rem;
+        height: 10rem;
     }
 }
 @media screen and (max-width: 780px) {

@@ -41,12 +41,18 @@
     color: #fff;
     padding: 2rem;
 }
-
-.values,
-.vision{
-    width: 35rem;
+.values{
+    width: 25rem;
     max-width: 100%;
-    height: 25rem;
+    height: 100%;
+    color: #fff;
+    padding: 2rem;
+}
+
+.vision{
+    width: 45rem;
+    max-width: 100%;
+    height: 100%;
     color: #fff;
     padding: 2rem;
 }
@@ -99,21 +105,20 @@
         color: #fff;
         padding: 2rem;
     }
-    
-    .values,
-    .vision{
-        width: 28rem;
-        max-width: 100%;
-        height: 25rem;
-        color: #fff;
-        padding: 2rem;
+    .values{
+        width: 21rem;
     }
+    
+    .vision{
+        width: 35rem;
+    }
+
     .mission-text{
         font-size: 1rem;
     }
 
     .vision-text{
-        width: 26rem;
+        width: 35rem;
         max-width: 100%;
         font-size: 1rem;
     }
@@ -129,12 +134,15 @@
     .mission{
         width: 46rem;
     }
-    
-    .values,
-    .vision{
-        width: 23rem;
-        height: 27rem;
+    .values{
+        width: 19rem;
     }
+    
+    .vision{
+        width: 27rem;
+    }
+    
+
 
 }
 @media screen and (max-width: 790px) {
@@ -151,11 +159,9 @@
     }
     .vision{
         width: 30rem;
-        height: 22rem;
     }
     .values{
         width: 30rem;
-        height: 23rem;
     }
     .mission-text{
         font-size: 1rem;
@@ -171,7 +177,8 @@
 @media screen and (max-width: 530px) {
 
     .mission-container{
-        width: 29rem;
+        width: 26rem;
+        padding: 0;
     }
 
     .vision,
@@ -197,8 +204,8 @@
 @media screen and (max-width: 470px) {
 
     .mission-container{
-        width: 23rem;
-        padding: 1rem;
+        width: 21rem;
+        padding: 0;
     }
     .mission{
         width: 21rem; 

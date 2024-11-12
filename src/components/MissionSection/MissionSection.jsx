@@ -24,8 +24,9 @@ const MissionSection = () => {
                 <img className='vision-img' src={vision} alt="Our Mission" />
                 <p className="vision-title">Our Vision</p>
                 <p className="vision-text">
-                  All individuals have the knowledge, skills and resources needed to lead informed, 
-                  healthy, and fulfilling lives where every person has the support needed to thrive.
+                To empower individuals of all ages to unlock their full potential through the transformation power of literacy and holistic wellness, 
+                fostering lifelong learning, emotional resilience, and a deep sense of purpose. We envision a community where every person has the skills, 
+                resources, and support to lead a balanced, and meaningful life, equipped to navigate the challenges of an ever-changing world.
                 </p>
             </div>
             <div className="values">

@@ -3,7 +3,7 @@ import imageOne from '../../images/services/service1.jpg'
 import imageTwo from '../../images/services/service2.jpg'
 import imageThree from '../../images/services/service3.jpg'
 import imageFour from '../../images/services/service4.jpg'
-import imageFive from '../../images/services/service5.jpg'
+import imageFive from '../../images/services/service7.jpg'
 import imageSix from '../../images/services/service6.png'
 const ServiceListPage = () => {
   return (
@@ -66,7 +66,7 @@ const ServiceListPage = () => {
                 
             </div>
             <div className="service-content">
-                <img src={imageFive} alt="" className="service-list-img" />
+                <img src={imageFive} alt="" className="service-list-img tutorial-image" />
                 <div className="service-list-info">
                     <p className='service-list-title'>Tutorial Services </p>
                     <p className='service-list-text'>

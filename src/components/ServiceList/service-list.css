@@ -21,6 +21,9 @@
     width: 20rem;
     height: 20rem;
 }
+.tutorial-image{
+    object-fit: cover;
+}
 .service-list-title{
     font-size: 1.8rem;
     font-weight: 500;

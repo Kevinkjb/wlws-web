@@ -1,6 +1,6 @@
 import './navbar.css'
 import {Link} from 'react-router-dom'
-import logoTwo from '../../images/icons/logotwo.jpg'
+import logoTwo from '../../images/icons/logothree.jpg'
 import { FaHeart } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
@@ -41,7 +41,7 @@ const NavbarTwo = () => {
                     <img className='logo-two' src={logoTwo} alt="WLWS Logo" />
                 </Link>
                 
-                <p className='logo-title-two'>Wetaskiwin United Heritage Festival</p>
+                <p className='logo-title-two'>Wetaskiwin Multicultural Heritage Festival</p>
             </div>
             <ul className={`nav-item ${burgerMenu ? 'active' : ''}`}>
                 <li className="nav-list" >

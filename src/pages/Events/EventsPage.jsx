@@ -99,7 +99,9 @@ const EventsPage = () => {
           making it an excellent way to promote cultural exchange and support local businesses.
         </p>
         <p className="vendors-text-two">Want to setup a booth?</p>
-        <button className="events-register-btn">Register Now!</button>
+        <a href="https://forms.gle/NZhWKrvfrpgn4mEw8" target="_blank">
+          <button className="events-register-btn">Register Now!</button>
+        </a>
       </div>
       {/* RIDES SECTION */}
       <div className="rides-section">

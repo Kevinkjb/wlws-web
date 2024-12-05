@@ -89,7 +89,7 @@ const Footer = () => {
 
     </div>
     <div className="copyrights">
-        <p>Wetaskiwin Literacy Wellness Services LTD © 2024 | Designed and Developed by <a className="copy-link" href="https://raydenwebstudio.com/#pricing" target="_blank">Rayden Web Studio</a></p>
+        <p>Wetaskiwin Literacy Wellness Services LTD © 2024 | Designed and Developed by <a className="copy-link" href="https://raydenwebstudio.com/" target="_blank">Rayden Web Studio</a></p>
     </div>
     </>
     

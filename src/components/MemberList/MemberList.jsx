@@ -1,7 +1,7 @@
 import marlon from '../../images/members/marlon.png';
 import gerald from '../../images/members/gerald.png';
 import normita from '../../images/members/normita.png';
-import artemio from '../../images/members/artemio.png';
+// import artemio from '../../images/members/artemio.png';
 import adel from '../../images/members/adel.png';
 import juanita from '../../images/members/juanita.png';
 import shirley from '../../images/members/shirley.png';
@@ -28,7 +28,7 @@ const MemberList = () => {
             <img className='member-img' src={normita} alt="Normita Santos" />
         </div>
         <div className="member member-four">
-            <img className='member-img' src={artemio} alt="Artemio Limbaga" />
+            {/* <img className='member-img' src={artemio} alt="Artemio Limbaga" /> */}
         </div>
         <div className="member member-five">
             <img className='member-img' src={adel} alt="Adelaida Lauro" />

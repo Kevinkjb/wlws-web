@@ -24,7 +24,7 @@ const ServiceListPage = () => {
                 <img src={imageTwo} alt="" className="service-list-img" />
                 
                 <div className="service-list-info">
-                    <p className='service-list-title'>Pre-employment Literacy</p>
+                    <p className='service-list-title'>Pre-Employment Literacy</p>
                     <p className='service-list-text'>Keen on mastering Pre-Employment Literacy, 
                         signaling a proactive approach to boost 
                         employability and excel in the dynamic professional and personal growth.
@@ -35,7 +35,7 @@ const ServiceListPage = () => {
             <div className="service-content">
                 <img src={imageThree} alt="" className="service-list-img" /> 
                 <div className="service-list-info">
-                    <p className='service-list-title'>New Commers</p>
+                    <p className='service-list-title'>Newcomers</p>
                     <p className='service-list-text'>
                         Eager to learn New Immigrants Literacy, a proactive step for seamless integration, 
                         language proficiency, and thriving in a new community.

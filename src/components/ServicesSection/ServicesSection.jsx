@@ -31,7 +31,7 @@ const ServicesSection = () => {
             
             <Link to='/services'>
               <div className="services-box box-three">
-                <p className='menu-one-title'>New Commers</p>
+                <p className='menu-one-title'>Newcomers</p>
                   {/* <img className='service-img'  src={service3} alt="" /> */}
               </div>
             </Link>

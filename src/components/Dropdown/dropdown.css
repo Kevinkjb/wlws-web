@@ -11,6 +11,8 @@
 }
 .btn{
     border: none;
+    color: #22263E;
+
 }
 .drop-item:hover{
     color: rgb(255, 174, 18);  

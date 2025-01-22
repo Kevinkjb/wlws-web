@@ -78,10 +78,10 @@ const Footer = () => {
                   <a className="footer-social-link" href="https://forms.gle/NZhWKrvfrpgn4mEw8" target="_blank">Vendors</a>
               </li>
               <li className="footer-list">
-                  <a className="footer-social-link" href="#">Performers</a>
+                  <a className="footer-social-link" href="https://docs.google.com/forms/d/1FA9XqGmd9yrio1TyQO_z5KjqZ2Y3hd6_ihfj9_7ejNI/edit" target='_blank'>Performers</a>
               </li>
               <li className="footer-list">
-                  <a className="footer-social-link" href="#">Volunteers</a>
+                  <a className="footer-social-link" href="https://docs.google.com/forms/d/1_p4GXf72x5tPzPy5Pc6GHwrTyqEvvqyhyEfD5oGnOxM/edit" target='_blank'>Volunteers</a>
               </li>
           </ul>
       </div>

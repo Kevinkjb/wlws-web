@@ -20,6 +20,7 @@ import { useState } from 'react';
 import Wfcf from "../../components/SliderCarousel/SliderCarousel";
 import Arts from "../../components/SliderCarousel/SliderCarouselTwo";
 import Modal from "./Modal/Modal";
+import Advertisement from "../../components/Advertisement/Advertisement";
 const EventsPage = () => {
   const [showModal, setShowModal] = useState(false);
   const [activeSlide, setActiveSlide] = useState(null);
@@ -253,6 +254,8 @@ const EventsPage = () => {
           <button className="events-register-btn">Learn More</button>
         </a>
       </div>
+      {/* ADVERTISEMENT */}
+      <Advertisement />
       {/* SUB HERO SECTION OF EVENTS */}
       <div className="events-hero-section">
 

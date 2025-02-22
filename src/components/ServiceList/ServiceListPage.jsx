@@ -1,22 +1,25 @@
 import './service-list.css'
-import imageOne from '../../images/services/service1.jpg'
+// import imageOne from '../../images/services/service1.jpg'
 import imageTwo from '../../images/services/service2.jpg'
 import imageThree from '../../images/services/service3.jpg'
 import imageFour from '../../images/services/service4.jpg'
 import imageFive from '../../images/services/service7.jpg'
 import imageSix from '../../images/services/service6.png'
+import digitalLiteracy from '../../images/services/Digital Literacy.jpg'
 const ServiceListPage = () => {
   return (
     <div>
       <div className="services-list-section">
         <div className="service-list">
             <div className="service-content">
-                <img src={imageOne} alt="" className="service-list-img" />
+                <img src={digitalLiteracy} alt="Digital Literacy" className="service-list-img digital" />
                 <div className="service-list-info">
-                    <p className='service-list-title'>English Language Literacy </p>
-                    <p className='service-list-text'>Diving into English Language Literacy is a curiosity-driven venture, 
-                        unlocking global connections, communication finesse, 
-                        and abundant learning opportunities for personal and professional growth.
+                    <p className='service-list-title'>Digital Literacy</p>
+                    <p className='service-list-text'>
+                        It aims to equip individuals with the skills, knowledge, and confidence to navigate, analyze, and engage with the digital world, 
+                        essential for personal growth and employment opportunities. It includes technical proficiency, critical thinking, ethical responsibility, 
+                        and adaptability, ensuring individuals can thrive, make informed decisions, and contribute meaningfully in an ever-evolving digital landscape, 
+                        while enhancing their ability to succeed in the digital workforce.
                     </p>
                 </div>
             </div>

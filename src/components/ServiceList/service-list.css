@@ -21,6 +21,9 @@
     width: 20rem;
     height: 20rem;
 }
+.digital{
+    object-fit: cover;
+}
 .tutorial-image{
     object-fit: cover;
 }
@@ -81,7 +84,7 @@
         width: 45rem;
     }
     .service-list-text{
-        width: 22rem;
+        width: 25rem;
         font-size: 1rem;
     }
     .service-list-img{

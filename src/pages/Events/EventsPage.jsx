@@ -74,7 +74,9 @@ const EventsPage = () => {
           By performing at the festival, they play a key role in spreading cultural appreciation, fostering unity, and entertaining a diverse crowd.
         </p>
         <p className="performer-text-two">Want to perform?</p>
-        <button className="events-register-btn">Register Now!</button>
+        <a href="https://docs.google.com/forms/d/1FA9XqGmd9yrio1TyQO_z5KjqZ2Y3hd6_ihfj9_7ejNI/edit" target="_blank">
+          <button className="events-register-btn">Register Now!</button>
+        </a>
       </div>
       {/* VENDOR SECTION */}
       <div className="vendors-section">
@@ -255,7 +257,10 @@ const EventsPage = () => {
         </a>
       </div>
       {/* ADVERTISEMENT */}
-      <Advertisement />
+      <div id="events-page">
+       <Advertisement />
+      </div>
+
       {/* SUB HERO SECTION OF EVENTS */}
       <div className="events-hero-section">
 

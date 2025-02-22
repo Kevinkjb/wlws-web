@@ -17,7 +17,7 @@ const ServicesSection = () => {
         <div className="services-list">
           <Link to='/services'>
               <div className="services-box box-one">
-                <p className='menu-one-title'>English Language Literacy</p>
+                <p className='menu-one-title'>Digital Literacy</p>
                   {/* <img className='service-img' src={service1} alt="" /> */}
               </div>
           </Link>

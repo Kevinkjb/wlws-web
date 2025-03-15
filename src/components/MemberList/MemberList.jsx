@@ -3,7 +3,7 @@ import gerald from '../../images/members/gerald.png';
 import normita from '../../images/members/normita.png';
 // import artemio from '../../images/members/artemio.png';
 import adel from '../../images/members/adel.png';
-import juanita from '../../images/members/juanita.png';
+// import juanita from '../../images/members/juanita.png';
 import shirley from '../../images/members/shirley.png';
 import nelly from '../../images/members/nelly.png';
 import './member.css';
@@ -33,9 +33,9 @@ const MemberList = () => {
         <div className="member member-five">
             <img className='member-img' src={adel} alt="Adelaida Lauro" />
         </div>
-        <div className="member member-six">
+        {/* <div className="member member-six">
             <img className='member-img' src={juanita} alt="Juanita Limbaga" />
-        </div>
+        </div> */}
         <div className="member member-seven">
             <img className='member-img' src={shirley} alt="Shirley Badua" />
         </div>

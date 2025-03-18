@@ -24,7 +24,7 @@ const AboutPage = () => {
           <div className="about-page-info">
             <p className='about-page-text'>
             {
-              `Wetaskiwin Literacy & Wellness Services Ltd is a registered nonprofit company that is dedicated primarily to addressing the 
+              `Wetaskiwin Literacy & Wellness Services Ltd is a registered nonprofit company located in Wetaskiwin, Alberta that is dedicated primarily to addressing the 
               foundational needs that enhance an individual's quality of life and contribute to the overall health and progress of the community. 
               By combining literacy and wellness initiatives, communities can create a holistic approach to improving quality of life and fostering sustainable development. `
             }

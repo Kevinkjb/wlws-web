@@ -8,7 +8,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: var(--main-font)
+  font-family: var(--main-font);
+  
 }
 html {
   scroll-behavior: smooth;
@@ -22,6 +23,7 @@ body{
   user-select: none; /* Non-prefixed version, currently
   supported by Chrome, Edge, Opera and Firefox */
 
+
 }
 p{
   margin-bottom: 0;
@@ -31,7 +33,7 @@ ul{
   padding-left: 0;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 2000px){
   html, body{
       width: 100%;
       margin: 0;

@@ -1,6 +1,7 @@
 .contact-container{
     margin: 5rem auto 10rem auto;
     padding: 2rem;
+
 }
 .contact-content{
     margin: 0 auto;
@@ -9,7 +10,7 @@
 
     width: 90rem;
     max-width: 100%;
-    height: 100%;
+
 }
 
 .contact-form{
@@ -198,7 +199,11 @@ p {
 
 
 /* RESPONSIVE CONTACT LAYOUT SECTION */
-
+/* @media screen and (max-height: 3000px) {
+    .contact-container{
+        height: 40vmax;
+    }
+} */
 @media screen and (max-width: 1310px) {
     .contact-content{
         width: 65rem;

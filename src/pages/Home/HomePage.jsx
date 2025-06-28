@@ -19,27 +19,27 @@ import sponsor6 from '../../images/sponsors/sponsor3.webp'
 import sponsor7 from '../../images/sponsors/sponsor4.jpg'
 import sponsor8 from '../../images/sponsors/sponsor5.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
-import advertisement from '../../images/advertisement/advertisement-one.jpg'
-import PopUp from "../../components/Popup/PopUp"
-import { useState, useEffect } from "react"
-import { Link } from "react-router-dom"
+// import advertisement from '../../images/advertisement/advertisement-one.jpg'
+// import PopUp from "../../components/Popup/PopUp"
+// import { useState, useEffect } from "react"
+// import { Link } from "react-router-dom"
 
 
 const HomePage = () => {
-  const [timePopup, setTimePopup] = useState(false)
-  useEffect(() => {
-    setTimeout(()=>{
-      setTimePopup(true)
-    }, 3000)
-  }, [])
+  // const [timePopup, setTimePopup] = useState(false)
+  // useEffect(() => {
+  //   setTimeout(()=>{
+  //     setTimePopup(true)
+  //   }, 3000)
+  // }, [])
   
   return (
     <>
-      <PopUp trigger={timePopup} setTrigger={setTimePopup}>
+      {/* <PopUp trigger={timePopup} setTrigger={setTimePopup}>
         <Link to='events'>
         <img src={advertisement} className="advertisement-home-img" alt="" />
         </Link>
-      </PopUp>
+      </PopUp> */}
       <div className="home-hero" >
         <Navbar/>
         <Hero/>

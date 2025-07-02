@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
-import React, {lazy, Suspense} from 'react'
+import {lazy, Suspense} from 'react'
+
 import './App.css'
 {
   /* The following line can be included in your src/index.js or App.js file */
@@ -35,6 +36,7 @@ function App() {
 
       <Suspense fallback={<div style={loadingStyle}>Loading...</div>}>
         <Routes>
+
           <Route path='/' element={<HomePage/>}/>
           <Route path='/about' element={<AboutPage/>}/>
           <Route path='/services' element={<ServicesPage/>}/>

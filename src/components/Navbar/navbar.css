@@ -188,7 +188,7 @@
         top: 0; /* Offset from the fixed nav */
         right: 0;
         width: 100%;
-        height: calc(100% - 1rem); /* Adjust height */
+        height: calc(30% - 1rem); /* Adjust height */
         background-color: #fff; /* Match the scrolled nav background */
         display: flex;
         align-items: center;

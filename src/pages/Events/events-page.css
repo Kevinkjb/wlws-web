@@ -71,7 +71,8 @@
 .rides-section,
 .event-sponsor-section,
 .wehoops-section,
-.volunteer-section{
+.volunteer-section,
+.heritage-section{
     width: 85rem;
     max-width: 100%;
     margin: 2rem auto 3rem auto;
@@ -132,6 +133,10 @@
 .volunteer-header{
     width: 10rem;
 }
+.heritage-header{
+    width: 32.5rem;
+    max-width: 100%;
+}
 .event-sponsor-header{
 
     width: 16rem;
@@ -140,7 +145,8 @@
 .vendors-title,
 .rides-title,
 .event-sponsor-title,
-.volunteer-title{
+.volunteer-title,
+.heritage-title{
     font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 0;
@@ -149,11 +155,13 @@
 .vendors-hr,
 .rides-hr,
 .event-sponsor-hr,
-.volunteer-hr{
+.volunteer-hr,
+.heritage-hr{
     color: #000;
     margin-top: .2rem;
     border: 2px solid #3088A4;
     border-bottom: 0;
+
 }
 
 /* .wfcf-three,
@@ -290,6 +298,9 @@
     height: 100%;
 }
 
+.heritage-list{
+
+}
 
 
 @media screen and (max-width: 1300px) {
@@ -309,7 +320,7 @@
 @media screen and (max-width: 1190px) {
 
     .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img, .volunteer-img{
-        width: 25rem;
+        width: 30vw;
         height: 25rem;
         object-fit: cover;
     }
@@ -322,10 +333,10 @@
 }
 @media screen and (max-width: 1000px) {
 
-    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img, .volunteer-img{
+    /* .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img, .volunteer-img{
         width: 22rem;
         height: 22rem;
-    }
+    } */
     .festival-text,
     .wehoops-text,
     .wfcf-text{
@@ -389,12 +400,13 @@
     .performers-list, 
     .vendors-list,
     .rides-list,
-    .wehoops-list, .wfcf-list{
+    .wehoops-list, .wfcf-list, .volunteer-list{
         flex-wrap: wrap;
         width: 45rem;
+        margin: 2rem auto;
     }
     .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img, .volunteer-img{
-        width: 20rem;
+        width: 30vw;
         height: 20rem;
         margin-bottom: 2rem;
     }
@@ -403,15 +415,15 @@
     }
 }
 @media screen and (max-width: 700px) {
-    .performers-list, 
+    /* .performers-list, 
     .vendors-list,
     .rides-list,
     .wehoops-list{
-        width: 36rem;
-    }
+        width: 45rem;
+    } */
     .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img, .volunteer-img{
-        width: 16rem;
-        height: 16rem;
+        width: 45vw;
+        height: 60vw;
     }
 }
 @media screen and (max-width: 600px) {
@@ -421,16 +433,13 @@
 
 }
 @media screen and (max-width: 570px) {
-    .performers-list, 
+    /* .performers-list, 
     .vendors-list,
     .rides-list,
     .wehoops-list{
         width: 20rem;
-    }
-    .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img, .volunteer-img{
-        width: 20rem;
-        height: 20rem;
-    }
+    } */
+
     .vendors-text,
     .wfcf-subtext,
     .wehoops-subtext{
@@ -447,17 +456,23 @@
         font-size: .9rem;
     }
 
+    .heritage-header{
+        width: 20.2rem;
+
+    }
+
 }
 @media screen and (max-width: 500px) {
     .performers-list, 
     .vendors-list,
     .rides-list,
     .wehoops-list{
-        width: 20rem;
+        width: 90vw;
+
     }
     .performer-img, .vendor-img, .rides-img, .wehoops-img, .wfcf-img, .volunteer-img{
-        width: 20rem;
-        height: 20rem;
+        width: 90vw;
+        height: 90vw;
     }
     .vendors-text,
     .wfcf-subtext,
@@ -492,4 +507,5 @@
         height: 10rem;
     
     }
+
 }

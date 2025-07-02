@@ -1,16 +1,18 @@
 import Footer from "../../components/FooterSection/Footer";
 import NavbarTwo from "../../components/Navbar/NavbarTwo";
 import './events-page.css';
-import performer1 from '../../images/performers/performer.png';
-import performer2 from '../../images/performers/performer1.png';
-import performer3 from '../../images/performers/performer2.png';
-import vendor1 from '../../images/vendors/vendor.png';
-import vendor2 from '../../images/vendors/vendor1.png';
-import vendor3 from '../../images/vendors/vendor2.png';
-import ride1 from '../../images/rides/ride.png';
-import ride2 from '../../images/rides/ride1.png';
-import ride3 from '../../images/rides/ride2.png';
-import volunteer1 from '../../images/volunteer/volunteer1.png';
+import performer1 from '../../images/heritage-2025/performer4.jpg';
+import performer2 from '../../images/heritage-2025/performers7.jpg';
+import performer3 from '../../images/heritage-2025/performer11.jpg';
+import vendor1 from '../../images/heritage-2025/vendor1.jpg';
+import vendor2 from '../../images/heritage-2025/vendor2.jpg';
+import vendor3 from '../../images/vendors/vendor1.png';
+import ride1 from '../../images/heritage-2025/rides.jpg';
+import ride2 from '../../images/heritage-2025/rides2.jpg';
+import ride3 from '../../images/heritage-2025/rides3.jpg';
+import volunteer1 from '../../images/heritage-2025/volunteer.jpg';
+import volunteer2 from '../../images/heritage-2025/volunteer2.jpg';
+import volunteer3 from '../../images/heritage-2025/volunteer4.jpg';
 import wfcf from '../../images/members/wfcf.jpg';
 import performingArts from '../../images/performing-arts/header-img.png';
 import wehoops1 from '../../images/wehoops/wehoops.png';
@@ -20,7 +22,9 @@ import { useState } from 'react';
 import Wfcf from "../../components/SliderCarousel/SliderCarousel";
 import Arts from "../../components/SliderCarousel/SliderCarouselTwo";
 import Modal from "./Modal/Modal";
-// import Advertisement from "../../components/Advertisement/Advertisement";
+import Advertisement from "../../components/Advertisement/Advertisement";
+
+import HeritageFestival from '../../components/SliderCarousel/SliderCarouselThree'
 const EventsPage = () => {
   const [showModal, setShowModal] = useState(false);
   const [activeSlide, setActiveSlide] = useState(null);
@@ -126,7 +130,7 @@ const EventsPage = () => {
         </div>
       </div>
       {/* VOLUNTEER SECTION */}
-            <div className="volunteer-section">
+      <div className="volunteer-section">
         <div className="volunteer-header">
           <p className="volunteer-title">Volunteers</p>
           <hr className="volunteer-hr"/>
@@ -136,12 +140,29 @@ const EventsPage = () => {
           <div className="volunteer-one">
             <img className="volunteer-img" src={volunteer1} alt="Volunteer Image" />
           </div>
+          <div className="volunteer-two">
+            <img className="volunteer-img" src={volunteer2} alt="Volunteer Image" />
+          </div>
+          <div className="volunteer-three">
+            <img className="volunteer-img" src={volunteer3} alt="Volunteer Image" />
+          </div>
           {/* <div className="rides-two">
             <img className="rides-img" src={ride2} alt="Rides Image" />
           </div>
           <div className="rides-three">
             <img className="rides-img" src={ride3} alt="Rides Image" />
           </div> */}
+        </div>
+      </div>
+      {/* HERITAGE FESTIVAL 2025 SECTION */}
+      <div className="heritage-section">
+        <div className="heritage-header">
+          <p className="heritage-title">Multicultural Heritage Festival 2025</p>
+          <hr className="heritage-hr"/>
+        </div>
+        {/* HERITAGE LIST */}
+        <div className="heritage-list">
+            <HeritageFestival/>
         </div>
       </div>
       {/* SPONSOR SECTION */}
@@ -257,9 +278,9 @@ const EventsPage = () => {
         </a>
       </div>
       {/* ADVERTISEMENT */}
-      {/* <div id="events-page">
+      <div id="events-page">
        <Advertisement />
-      </div> */}
+      </div>
 
       {/* SUB HERO SECTION OF EVENTS */}
       <div className="events-hero-section">

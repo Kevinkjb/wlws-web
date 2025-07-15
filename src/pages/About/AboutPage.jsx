@@ -5,9 +5,11 @@ import MissionSection from '../../components/MissionSection/MissionSection'
 import './about-page.css'
 import Navbar from '../../components/Navbar/Navbar';
 import aboutImage from '../../images/background/about.png'
+
 const AboutPage = () => {
   return (
     <div>
+
       <Navbar/>
       <div className="hero-sub" >
         <div className="hero-section-two">

@@ -13,6 +13,9 @@ import AboutPage from './pages/About/AboutPage'
 // import ContactPage from './pages/Contact/ContactPage'
 import {Route, Routes} from 'react-router-dom'
 import Donate from './pages/Donate/Donate';
+import Navbar from './components/Navbar/Navbar';
+import ScrollToTop from 'react-scroll-to-top';
+
 
 
 const loadingStyle = {
@@ -33,7 +36,7 @@ function App() {
 
   return (
     <>
-
+                <ScrollToTop />
       <Suspense fallback={<div style={loadingStyle}>Loading...</div>}>
         <Routes>
 

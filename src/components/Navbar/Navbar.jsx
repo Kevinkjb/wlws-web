@@ -7,22 +7,30 @@ import { useEffect } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import DropDown from '../Dropdown/DropDown';
-
+import { useRef } from 'react';
 const Navbar = () => {
     const [burgerMenu, setBurgerMenu] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
-
-    const handleScroll = () => {
-      const offset = window.scrollY;
-      setIsScrolled(offset > 50); // Adjust the value to where you want the effect to start
-    };
+    // const [isScrolled, setIsScrolled] = useState(false);
+    const [scroll, setScroll] = useState(false)
+    const navRef = useRef(null); // NEW: ref to detect outside clicks
+    // Close menu when clicking outside
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-          window.removeEventListener('scroll', handleScroll);
+        const handleClickOutside = (event) => {
+            if (navRef.current && !navRef.current.contains(event.target)) {
+                setBurgerMenu(false);
+            }
         };
-      }, []);
-  
+
+        if (burgerMenu) {
+            document.addEventListener('mousedown', handleClickOutside);
+        } else {
+            document.removeEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [burgerMenu]);
+
+
     const closeMobile = () => {
         scrollToTop();
         setBurgerMenu(false);
@@ -34,16 +42,26 @@ const Navbar = () => {
           behavior: "smooth"
         });
       };
+      function setScrolled() {
+          if(window.scrollY >= 0){
+              setScroll(true)
+          } else{
+              setScroll(false)
+          }
+        }
+        window.addEventListener("scroll", setScrolled)
+        
   return (
     <>
-        <div className={`nav-container ${isScrolled ? 'scrolled' : ''}`}>
+        <div className={scroll ? 'nav-main sticky' : 'nav-main'}>
+          <div className="nav-container">
                 <div className="nav-logo">
                     <Link to="/">
                         <img className='logo' src={logo} alt="WLWS Logo" />
                     </Link>
                     <p className='logo-text'>Wetaskiwin Literacy & Wellness Services LTD</p>
                 </div>
-                <ul  className={`nav-item ${burgerMenu ? 'active' : ''}`}>
+                <ul ref={navRef}  className={`nav-item ${burgerMenu ? 'active' : ''}`}>
                     <li className="nav-list">
                         <Link to="/about" className='nav-link' onClick={closeMobile}>About</Link>
                     </li>
@@ -66,6 +84,8 @@ const Navbar = () => {
                 <div className='nav-button' onClick={() => setBurgerMenu(!burgerMenu)}>
                     {burgerMenu ? <IoCloseSharp className='close-menu' /> : <GiHamburgerMenu className='burger-menu' />}
                 </div>
+          </div>
+                
         </div>
     </>
     

@@ -35,13 +35,14 @@ const HomePage = () => {
   
   return (
     <>
+      <Navbar/>
       {/* <PopUp trigger={timePopup} setTrigger={setTimePopup}>
         <Link to='events'>
         <img src={advertisement} className="advertisement-home-img" alt="" />
         </Link>
       </PopUp> */}
       <div className="home-hero" >
-        <Navbar/>
+
         <Hero/>
       </div>
       <AboutHome/>

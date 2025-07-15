@@ -4,24 +4,32 @@ import logoTwo from '../../images/icons/logothree.jpg'
 import { FaHeart } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
-
+import { useRef } from 'react';
 import { useState, useEffect } from 'react';
 import DropDown from '../Dropdown/DropDown';
 const NavbarTwo = () => {
     const [burgerMenu, setBurgerMenu] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false);
-
-    const handleScroll = () => {
-      const offset = window.scrollY;
-      setIsScrolled(offset > 50); // Adjust the value to where you want the effect to start
-    };
+    // const [isScrolled, setIsScrolled] = useState(false);
+    const [scroll, setScroll] = useState(false)
+    const navRef = useRef(null); // NEW: ref to detect outside clicks
+    // Close menu when clicking outside
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-          window.removeEventListener('scroll', handleScroll);
+        const handleClickOutside = (event) => {
+            if (navRef.current && !navRef.current.contains(event.target)) {
+                setBurgerMenu(false);
+            }
         };
-      }, []);
-  
+
+        if (burgerMenu) {
+            document.addEventListener('mousedown', handleClickOutside);
+        } else {
+            document.removeEventListener('mousedown', handleClickOutside);
+        }
+
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [burgerMenu]);
+
+
     const closeMobile = () => {
         scrollToTop();
         setBurgerMenu(false);
@@ -33,39 +41,50 @@ const NavbarTwo = () => {
           behavior: "smooth"
         });
       };
+      function setScrolled() {
+          if(window.scrollY >= 0){
+              setScroll(true)
+          } else{
+              setScroll(false)
+          }
+        }
+        window.addEventListener("scroll", setScrolled)
   return (
     <>
-        <div className={`nav-container ${isScrolled ? 'scrolled' : ''}`}>
-            <div className="nav-logo-two">
-                <Link to="/">
-                    <img className='logo-two' src={logoTwo} alt="WLWS Logo" />
-                </Link>
-                
-                <p className='logo-title-two'>Wetaskiwin Multicultural Heritage Festival</p>
-            </div>
-            <ul className={`nav-item ${burgerMenu ? 'active' : ''}`}>
-                <li className="nav-list" >
-                    <Link to="/about" className='nav-link' onClick={closeMobile}>About</Link>
-                </li>
-                <li className="nav-list" >
-                    <Link to="/services" className='nav-link' onClick={closeMobile}>Services</Link>
-                </li>
-                <li className="nav-list" >
-                    <Link to="/events" className='nav-link' onClick={closeMobile}>Events</Link>
-                </li>
-                <li className="nav-list" >
-                    <Link to="/contact" className='nav-link' onClick={closeMobile}>Contact Us</Link>
-                </li>
-                <DropDown/>
-                <li className="nav-list" >
-                    <Link className=' donate-link' to="/donate">Donate Now <FaHeart className='heart-icon'/></Link>
-                </li>
-            </ul>
-            <div className='nav-button' onClick={() => setBurgerMenu(!burgerMenu)}>
-                    {burgerMenu ? <IoCloseSharp className='close-menu' /> : <GiHamburgerMenu className='burger-menu' />}
-            </div>
+    <div className={scroll ? 'nav-main sticky' : 'nav-main'}>
+      <div className="nav-container">
+                  <div className="nav-logo-two">
+                      <Link to="/">
+                          <img className='logo-two' src={logoTwo} alt="WLWS Logo" />
+                      </Link>
+                      
+                      <p className='logo-title-two'>Wetaskiwin Multicultural Heritage Festival</p>
+                  </div>
+                  <ul ref={navRef}  className={`nav-item ${burgerMenu ? 'active' : ''}`}>
+                      <li className="nav-list" >
+                          <Link to="/about" className='nav-link' onClick={closeMobile}>About</Link>
+                      </li>
+                      <li className="nav-list" >
+                          <Link to="/services" className='nav-link' onClick={closeMobile}>Services</Link>
+                      </li>
+                      <li className="nav-list" >
+                          <Link to="/events" className='nav-link' onClick={closeMobile}>Events</Link>
+                      </li>
+                      <li className="nav-list" >
+                          <Link to="/contact" className='nav-link' onClick={closeMobile}>Contact Us</Link>
+                      </li>
+                      <DropDown/>
+                      <li className="nav-list" >
+                          <Link className=' donate-link' to="/donate">Donate Now <FaHeart className='heart-icon'/></Link>
+                      </li>
+                  </ul>
+                  <div className='nav-button' onClick={() => setBurgerMenu(!burgerMenu)}>
+                          {burgerMenu ? <IoCloseSharp className='close-menu' /> : <GiHamburgerMenu className='burger-menu' />}
+                  </div>
 
-        </div>
+              </div>
+    </div>
+        
     </>
   )
 }

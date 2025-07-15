@@ -31,13 +31,13 @@ const ServicesSection = () => {
             
             <Link to='/services'>
               <div className="services-box box-three">
-                <p className='menu-one-title'>Newcomers</p>
+                <p className='menu-one-title'>Youth, Adult & Seniours Wellness</p>
                   {/* <img className='service-img'  src={service3} alt="" /> */}
               </div>
             </Link>
             <Link to="/services">
               <div className="services-box box-four">
-                <p className='menu-one-title'>Adults & Seniors Wellness</p>
+                <p className='menu-one-title'>Community Supports</p>
                   {/* <img className='service-img'  src={service4} alt="" /> */}
               </div>
             </Link>
@@ -47,12 +47,11 @@ const ServicesSection = () => {
                   {/* <img className='service-img'  src={service5} alt="" /> */}
               </div>
             </Link>
-            <Link to="/services">
+            {/* <Link to="/services">
               <div className="services-box box-six">
                 <p className='menu-one-title'>Youth Wellness</p>
-                  {/* <img className='service-img'  src={service6} alt="" /> */}
               </div>
-            </Link>
+            </Link> */}
         </div>
       </div>
     </>

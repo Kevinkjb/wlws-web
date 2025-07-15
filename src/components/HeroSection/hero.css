@@ -36,7 +36,7 @@
     width: 47rem;
     max-width: 100%;
     line-height: 1.7;
-    font-size: 3rem;
+    font-size: 3.6rem;
     color: #fff;
     text-shadow: 2px 2px 2px #000;
 }
@@ -62,7 +62,7 @@
 @media screen and (max-width: 780px){
     .hero-title{
         width: 47rem;
-        font-size: 2.7rem;
+        font-size: 7.5vw;
     }
     
     .hero-slider {
@@ -101,9 +101,15 @@
         font-size: 2rem;
     }
 }
-@media screen and (max-width: 392px){
+@media screen and (max-width: 397px){
     .hero-title{
-        font-size: 1.9rem;
+        font-size: 1.85rem;
+    }
+
+}
+@media screen and (max-width: 375px){
+    .hero-title{
+        font-size: 1.76rem;
     }
 
 }

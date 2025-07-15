@@ -1,29 +1,40 @@
 .services-list-section{
+    padding: 1rem;
+}
+.services-list{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
 
 }
 .service-content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 65rem;
+    align-items: flex-start;
+    width: 68rem;
     max-width: 100%;
     margin: 5rem auto;
+
 }
 .service-list{
     margin: 5rem 0;
 
 }
 .service-list-img{
-    width: 20rem;
-    height: 20rem;
-}
-.digital{
+    width: 25rem;
+    height: 25rem;
     object-fit: cover;
+    padding-right: 2rem;
 }
+.employment{
+    height: 40rem;
+}
+.digital, 
+.community,
+.tutorial-image{
+     height: 30rem;
+}
+
 .tutorial-image{
     object-fit: cover;
 }
@@ -33,27 +44,45 @@
     margin-bottom: 1rem;
 }
 .service-list-text{
-    width: 40rem;
     max-width: 100%;
     line-height: 1.8;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: justify;
 
 }
-@media screen and (max-width: 1120px) {
-    .service-list{
+.service-list-info{
+    width: 40rem;
+    max-width: 100%;
+}
+.schedule-section{
+    margin: 1rem 0;
+}
+.schedule-section p:first-child {
+    font-weight: 600;
+}
+.schedule-section p{
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* @media screen and (max-width: 1180px) {
+    .service-content{
         width: 58rem;
     }
     .service-list-text{
-        width: 35rem;
+        width: 30rem;
     }
 }
 @media screen and (max-width: 1000px) {
     .service-list{
-        width: 50rem;
+        width: 55rem;
     }
-    .service-list-text{
-        width: 26rem;
+    .service-list-info{
+        width: 25rem;
+    }
+    .service-list-text,
+    .schedule-section{
+        width: 25rem;
     }
 }
 @media screen and (max-width: 870px) {
@@ -64,53 +93,32 @@
         width: 26rem;
         font-size: 1rem;
     }
-}
-@media screen and (max-width: 840px) {
-    .service-list{
-        width: 45rem;
+} */
+@media screen and (max-width: 780px) {
+    .service-list-img{
+        width: 100%;
+        height: 70vw;
+        object-fit: cover;
+        padding-right: 0;
+        margin-bottom: 1rem;
+        
     }
-    .service-list-text{
-        width: 22rem;
-        font-size: 1rem;
-    }
-}
-@media screen and (max-width: 840px) {
     .service-content{
         flex-direction: column;
-        width: 25rem;
-        align-items: flex-start;
     }
-    .service-list{
-        width: 45rem;
+    .service-list-info{
+        width: 100%;
+        max-width: 100%;
     }
     .service-list-text{
-        width: 25rem;
-        font-size: 1rem;
-    }
-    .service-list-img{
-        width: 25rem;
-        height: 25rem;
-        margin-bottom: 1rem;
+        width: 100%;
+        text-align: left;
+
     }
 }
-@media screen and (max-width: 470px) {
-    .services-list-section{
-        padding: 1rem;
-    }
-    .service-content{
-        width: 20rem;
-    }
-    .service-list{
-        width: 45rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-    .service-list-text{
-        width: 20rem;
-        font-size: .9rem;
-    }
-    .service-list-img{
-        width: 20rem;
-        height: 20rem;
-    }
+
+@media screen and (max-width: 420px) {
+    .service-list-title{
+        font-size: 6.5vw;
+}
 }

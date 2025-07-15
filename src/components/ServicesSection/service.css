@@ -38,6 +38,7 @@
 
 
 .box-one{
+
     background-image: url('../../images/services/Digital.png');
 }
 .box-two{
@@ -50,11 +51,21 @@
     background-image: url('../../images/services/community.png');
 }
 .box-five{
-    background-image: url('../../images/services/tutorial.png');
+  background-image: url('../../images/services/tutorial.png');
 }
-.box-six{
+.community-box{
+  grid-column: 1/3;
+  grid-row: 2;
+    margin: 0 auto;
+}
+.tutorial-box{
+  grid-column: 2/4;
+  grid-row: 2;
+  margin: 0 auto;
+}
+/* .box-six{
     background-image: url('../../images/services/service6.png');
-}
+} */
 .services-box{
     background-position: center;
     background-repeat: no-repeat;
@@ -132,6 +143,16 @@
         width: 25rem;
         height: 25rem;
     }
+    .community-box{
+  grid-column: 1/2;
+  grid-row: 2;
+    margin: 0 auto;
+}
+.tutorial-box{
+  grid-column: 1/3;
+  grid-row: 3;
+  margin: 0 auto;
+}
   }
   @media screen and (max-width: 920px) {
     .services-list{
@@ -167,7 +188,7 @@
   @media screen and (max-width: 662px) {
     .services-list{
         grid-template-columns: auto;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         margin: 0 auto;
         width: 24rem;
     }
@@ -183,6 +204,16 @@
         font-size: 1.8rem;
         width: 19rem;
       }
+      .community-box{
+        grid-column: 1/2;
+        grid-row: 4;
+          margin: 0 auto;
+      }
+  .tutorial-box{
+    grid-column: 1/2;
+    grid-row: 5;
+    margin: 0 auto;
+  }
 
   }
   @media screen and (max-width: 450px) {

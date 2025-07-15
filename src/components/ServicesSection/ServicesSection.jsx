@@ -35,13 +35,13 @@ const ServicesSection = () => {
                   {/* <img className='service-img'  src={service3} alt="" /> */}
               </div>
             </Link>
-            <Link to="/services">
+            <Link to="/services" className='community-box'>
               <div className="services-box box-four">
                 <p className='menu-one-title'>Community Supports</p>
                   {/* <img className='service-img'  src={service4} alt="" /> */}
               </div>
             </Link>
-            <Link to="/services">
+            <Link to="/services" className='tutorial-box'>
               <div className="services-box box-five">
                 <p className='menu-one-title'>Tutorial Services</p>
                   {/* <img className='service-img'  src={service5} alt="" /> */}

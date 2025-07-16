@@ -99,7 +99,7 @@ const HomePage = () => {
           </div>
           <div className="sponsor-container">
             <div className="sponsor-box">
-              <a href="https://aquinascollege.ca/" target="_blank">
+              <a href="https://www.visioncu.ca/en/home" target="_blank">
                 <img className="sponsor-logo"  src={sponsor10} alt="Vision Credit Union" />
               </a>
             </div>

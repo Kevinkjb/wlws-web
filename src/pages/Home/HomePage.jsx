@@ -19,6 +19,7 @@ import sponsor6 from '../../images/sponsors/sponsor3.webp'
 import sponsor7 from '../../images/sponsors/sponsor4.jpg'
 import sponsor8 from '../../images/sponsors/sponsor5.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
+import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2d29a6_logo.png'
 // import advertisement from '../../images/advertisement/advertisement-one.jpg'
 // import PopUp from "../../components/Popup/PopUp"
 // import { useState, useEffect } from "react"
@@ -97,6 +98,11 @@ const HomePage = () => {
               <hr className="sponsor-hr"/>
           </div>
           <div className="sponsor-container">
+            <div className="sponsor-box">
+              <a href="https://aquinascollege.ca/" target="_blank">
+                <img className="sponsor-logo"  src={sponsor10} alt="Vision Credit Union" />
+              </a>
+            </div>
             <div className="sponsor-box">
               <a href="https://aquinascollege.ca/" target="_blank">
                 <img className="sponsor-logo"  src={sponsor1} alt="Aquinas College" />

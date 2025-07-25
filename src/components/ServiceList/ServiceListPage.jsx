@@ -58,7 +58,7 @@ const ServiceListPage = () => {
                     </p>
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
-                        <p>Leadership Workshops: $25/hour(6 clients minimum)</p>
+                        <p>Leadership Workshops: By Schedule (FREE)</p>
                         <p>English Language: Tuesdays 1:00 PM - 3:00 PM - $25/hour(6 clients minimum)</p>
                         <p>Pre-registration Required</p>
                     </div>

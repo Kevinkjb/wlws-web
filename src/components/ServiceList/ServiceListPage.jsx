@@ -30,6 +30,9 @@ const ServiceListPage = () => {
                         <p>ADVANCED DIGITAL LITERACY – $10/hr</p>
                         <p>Pre-registration Required: 6 clients minimum</p>
                     </div>
+                    {/* <a href="">
+                        <button className='services-book'>Book appointment</button>
+                    </a> */}
                 </div>
             </div>
             <div className="service-content">
@@ -55,10 +58,13 @@ const ServiceListPage = () => {
                     </p>
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
-                        <p>Leadership Workshops: By Schedule (FREE)</p>
-                        <p>English Language: Tuesdays 1:00 PM - 3:00 PM  (FREE)</p>
+                        <p>Leadership Workshops: $25/hour(6 clients minimum)</p>
+                        <p>English Language: Tuesdays 1:00 PM - 3:00 PM - $25/hour(6 clients minimum)</p>
                         <p>Pre-registration Required</p>
                     </div>
+                    {/* <a href="">
+                        <button className='services-book'>Book appointment</button>
+                    </a> */}
                 </div>
                 
             </div>
@@ -88,6 +94,9 @@ const ServiceListPage = () => {
                         <p>Mondays & Fridays – 10:00 AM - 12:00 PM /2:00 PM - 5:00 PM</p>
                         <p>Minimal Registration Fee/Pre-registration required.</p>
                     </div>
+                    {/* <a href="">
+                        <button className='services-book'>Book appointment</button>
+                    </a> */}
                 </div>
                 
                 
@@ -111,6 +120,9 @@ const ServiceListPage = () => {
                         <p>Mondays & Fridays – 12:00 PM - 1:00 PM /4:00 PM- 5:00 PM</p>
                         <p>Saturdays: 1:00 PM - 3:00 PM</p>
                     </div>
+                    {/* <a href="">
+                        <button className='services-book'>Book appointment</button>
+                    </a> */}
                 </div>
                 
             </div>
@@ -131,6 +143,9 @@ const ServiceListPage = () => {
                         <p>Basic and Advanced Computer Literacy</p>
                         <p>Pre-registration required(2 clients minimum) – Cost: $25/hr</p>
                     </div>
+                    {/* <a href="">
+                        <button className='services-book'>Book appointment</button>
+                    </a> */}
                 </div>
                 
             </div>

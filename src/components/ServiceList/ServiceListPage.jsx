@@ -30,9 +30,9 @@ const ServiceListPage = () => {
                         <p>ADVANCED DIGITAL LITERACY – $10/hr</p>
                         <p>Pre-registration Required: 6 clients minimum</p>
                     </div>
-                    {/* <a href="">
-                        <button className='services-book'>Book appointment</button>
-                    </a> */}
+                    <a href="https://docs.google.com/forms/d/1iErxnCTGcWgtIcNgOt5FrEt1FnR5rD4BfrU0SsbeYSs/viewform?edit_requested=true" target='_blank'>
+                        <button className='services-book'>Register Now</button>
+                    </a>
                 </div>
             </div>
             <div className="service-content">

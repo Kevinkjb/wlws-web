@@ -52,14 +52,14 @@ const ServiceListPage = () => {
                         teamwork, problem-solving, financial management, and professionalism. 
                     </p>
                     <p className='service-list-text'>
-                        <b>English Language Training</b> - focuses on equipping clients with essential workplace vocabulary, 
+                        <b>English Language Training (ELT)</b> - focuses on equipping clients with essential workplace vocabulary, 
                         communication skills, and job-seeking strategies. This approach enhances their confidence and readiness for employment by 
                         aligning language learning with real-world job requirements. 
                     </p>
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
                         <p>Leadership Workshops: By Schedule (FREE)</p>
-                        <p>English Language: Tuesdays 1:00 PM - 3:00 PM - $25/hour(6 clients minimum)</p>
+                        <p>English Language Training(ELT): Tuesdays 1:00 PM - 3:00 PM - $10/hour(6 clients minimum)</p>
                         <p>Pre-registration Required</p>
                     </div>
                     {/* <a href="">

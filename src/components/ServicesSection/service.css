@@ -26,7 +26,7 @@
 
 /* SERVICES LIST SECTION */
 
-.services-list{
+.services-list-home{
     display: grid;
     grid-template-columns: repeat(3, auto);
     justify-content: space-between;
@@ -133,7 +133,7 @@
     }
   }
   @media screen and (max-width: 1130px) {
-    .services-list{
+  .services-list-home{
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(3, 1fr);
         width: 55rem;
@@ -155,7 +155,7 @@
 }
   }
   @media screen and (max-width: 920px) {
-    .services-list{
+    .services-list-home{
         width: 45rem;
     }
     .services-box{
@@ -164,7 +164,7 @@
     }
   }
   @media screen and (max-width: 760px) {
-    .services-list{
+    .services-list-home{
         width: 40rem;
     }
     .services-box{
@@ -186,7 +186,7 @@
     
   }
   @media screen and (max-width: 662px) {
-    .services-list{
+    .services-list-home{
         grid-template-columns: auto;
         grid-template-rows: repeat(5, 1fr);
         margin: 0 auto;
@@ -217,7 +217,7 @@
 
   }
   @media screen and (max-width: 450px) {
-    .services-list{
+    .services-list-home{
         width: 20rem;
     }
     .services-box{
@@ -235,7 +235,7 @@
 
   }
   @media screen and (max-width: 390px) {
-    .services-list{
+    .services-list-home{
         width: 18rem;
     }
     .services-box{

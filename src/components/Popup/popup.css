@@ -30,6 +30,15 @@
 .popup-inner .close-btn:hover{
     transform: scale(1.1);
 }
+.popup-inner .close-btn{
+    color: #fff;
+}
+.popup-image {
+  cursor: pointer;
+  max-width: 100%; /* Or any size you prefer */
+
+  height: 100%;
+}
 @media screen and (max-width: 600px) {
     .popup-inner .close-btn{
         position: absolute;

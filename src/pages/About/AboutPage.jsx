@@ -4,7 +4,7 @@ import MemberList from '../../components/MemberList/MemberList'
 import MissionSection from '../../components/MissionSection/MissionSection'
 import './about-page.css'
 import Navbar from '../../components/Navbar/Navbar';
-import aboutImage from '../../images/background/about.png'
+import aboutImage from '../../images/about/why-we-exist.png'
 
 const AboutPage = () => {
   return (
@@ -42,7 +42,7 @@ const AboutPage = () => {
         <div className="about-img-section">
 
             <div className="about-page-container">
-                <div className="about-box"></div>
+                {/* <div className="about-box"></div> */}
                 <div className='about-page-img-containter'>
                   <img className='about-page-img' src={aboutImage} alt="" />
                 </div>

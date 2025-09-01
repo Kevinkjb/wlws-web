@@ -108,8 +108,36 @@
     transform: scale(1.1);
 }
 /* ADVERTISEMENT HOME */
+
 .advertisement-home-img{
     width: 100%;
+}
+.event-advertisement-info{
+    margin: 2rem 0;
+}
+ .event-advertisement{
+    width: 90rem;
+    margin: 3rem auto;
+    max-width: 100%;
+    padding: 1rem;
+ }
+ .advertisement-title{
+    margin-bottom: 1rem;
+ }
+.advertisement-event-img{
+    width: 40rem;
+    margin: 2rem 0;
+}
+.event-home-subtitle{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.home-event-text{
+    width: 60rem;
+    max-width: 100%;
+    line-height: 1.8;
+    margin: .2rem 0;
 }
 /* DONATION SECTION */
 /* 
@@ -259,6 +287,11 @@
         transition: all .2s ease;
     }
 }
+@media screen and (max-width: 672px) {
+    .advertisement-event-img{
+        width: 90vw;
+    }
+}
 @media screen and (max-width: 660px) {
     .collab-logo{
         width: 10rem;
@@ -295,6 +328,7 @@
     }
 }
 @media screen and (max-width: 400px) {
+
     .collab-logo{
         width: 8rem;
         height: 8rem;

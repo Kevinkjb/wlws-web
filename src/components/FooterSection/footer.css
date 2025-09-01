@@ -107,14 +107,14 @@
 .copy-link:hover{
     color: #000;
 }
-@media screen and (max-width: 1200px){
+/* @media screen and (max-width: 1200px){
     html, body{
         width: 100%;
         margin: 0;
         padding: 0;
         overflow-x: hidden;
     }
-}
+} */
 
 @media screen and (max-width: 1200px) {
     .footer-section{

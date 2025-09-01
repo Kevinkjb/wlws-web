@@ -125,12 +125,12 @@
 
 @media screen and (max-width: 1200px) {
     .about-page-img-containter{
-        width: 35rem;
-        height: 35rem;
+        width: 30rem;
+        height: 30rem;
     }
     .about-page-img{
-        width: 35rem;
-        height: 35rem;
+        width: 30rem;
+        height: 30rem;
     }
     .about-box{
         width: 35rem;
@@ -172,17 +172,20 @@
 @media screen and (max-width: 780px) {
     .about-page-section{
         align-items: flex-start;
-        flex-direction: column-reverse;
+        flex-direction: column;
         width: 42rem;
         padding: 2rem;
     }
     .about-page-img-containter,
     .about-page-img{
         width: 38rem;
-        height: 25rem;
+        height: 30rem;
         margin-bottom: 2rem;
     }
+.about-page-text{
+    width: 100%;
 
+}
     .about-box{
         display: none;
     }
@@ -194,7 +197,7 @@
     .about-page-img-containter,
     .about-page-img{
         width: 32rem;
-        height: 25rem;
+        height: 32rem;
     }
 }
 @media screen and (max-width: 590px) {
@@ -205,7 +208,7 @@
     .about-page-img-containter,
     .about-page-img{
         width: 28rem;
-        height: 20rem;
+        height: 28rem;
     }
 }
 @media screen and (max-width: 490px) {
@@ -216,7 +219,7 @@
     .about-page-img-containter,
     .about-page-img{
         width: 22rem;
-        height: 20rem;
+        height: 22rem;
     }
 
     .about-page-text{

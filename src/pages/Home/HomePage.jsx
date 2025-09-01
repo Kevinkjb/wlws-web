@@ -20,28 +20,34 @@ import sponsor7 from '../../images/sponsors/sponsor4.jpg'
 import sponsor8 from '../../images/sponsors/sponsor5.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
 import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2d29a6_logo.png'
-// import advertisement from '../../images/advertisement/advertisement-one.jpg'
-// import PopUp from "../../components/Popup/PopUp"
-// import { useState, useEffect } from "react"
-// import { Link } from "react-router-dom"
+import advertisement from '../../images/advertisement/ballroom.jpg'
+import PopUp from "../../components/Popup/PopUp"
+import { useState, useEffect } from "react"
+
 
 
 const HomePage = () => {
-  // const [timePopup, setTimePopup] = useState(false)
-  // useEffect(() => {
-  //   setTimeout(()=>{
-  //     setTimePopup(true)
-  //   }, 3000)
-  // }, [])
-  
+  const [trigger, setTrigger] = useState(false);
+  // Trigger popup automatically when the component loads
+  useEffect(() => {
+    setTrigger(true); // Open the popup as soon as the component mounts
+
+    // Auto-close the popup after 5 seconds
+    const timer = setTimeout(() => {
+      setTrigger(false);  // Close the popup after 5 seconds
+    }, 5000); // 5000 ms = 5 seconds
+
+    return () => clearTimeout(timer);  // Clean up timer when component unmounts or trigger changes
+  }, []);  // Empty dependency array means this effect runs once when the component mounts
+
   return (
     <>
       <Navbar/>
-      {/* <PopUp trigger={timePopup} setTrigger={setTimePopup}>
-        <Link to='events'>
-        <img src={advertisement} className="advertisement-home-img" alt="" />
-        </Link>
-      </PopUp> */}
+      <a href="#advertisement">
+        <PopUp  trigger={trigger} setTrigger={setTrigger}>
+      </PopUp>
+      </a>
+
       <div className="home-hero" >
 
         <Hero/>
@@ -150,6 +156,39 @@ const HomePage = () => {
       </div>
       <CallToAction/>
       <ServicesSection/>
+      <hr className="home-hr"/>
+      <div className="event-advertisement" id="advertisement">
+        <img className="advertisement-event-img" src={advertisement} alt="" />
+        <h2 className="advertisement-title">Wellness Wednesday Ballroom & Karaoke Night!</h2>
+        <p className="home-event-text">
+          Join us for an unforgettable Wellness Wednesday hosted by Wetaskiwin Literacy & Wellness Services! 
+        </p>
+        <p className="home-event-text">This lively evening is all about fun, wellness, and community connection through music and movement.</p>
+        <div className="event-advertisement-info">
+          <h5 className="event-home-subtitle">Event Highlights:</h5>
+          <ul>
+            <li>Ballroom Dancing</li>
+            <li>Karaoke Fun</li>
+            <li>Delicious Food & Drinks</li>
+          </ul>
+          <p><b>Date:</b> September 10, 2025</p>
+          <p><b>Time:</b> 1:00 PM – 9:00 PM</p>
+          <p><b>Location:</b>  5205B 49 Ave, Wetaskiwin, AB</p>
+        </div>
+        <div className="event-advertisement-info">
+          <h5 className="event-home-subtitle">Tickets: $10.00</h5>
+          <p>Includes food, drink, and coffee/tea!</p>
+          <p>Limited tickets available – don’t miss out!</p>
+        </div>
+
+        <div className="event-advertisement-info">
+          <h5 className="event-home-subtitle">E-transfer Option:</h5>
+          <p>Send your payment via e-transfer to: <b>wetaskiwinliteracyservices@gmail.com</b></p>
+          <p>Please include your full name and “Wellness Wednesday” in the message.</p>
+        </div>
+        <p><b>Let’s dance, sing, and celebrate wellness together – see you there!</b></p>
+      </div>
+
       <Footer/>
 
     </>

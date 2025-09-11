@@ -20,33 +20,33 @@ import sponsor7 from '../../images/sponsors/sponsor4.jpg'
 import sponsor8 from '../../images/sponsors/sponsor5.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
 import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2d29a6_logo.png'
-import advertisement from '../../images/advertisement/ballroom.jpg'
-import PopUp from "../../components/Popup/PopUp"
-import { useState, useEffect } from "react"
+// import MapSection from "../../components/Map/MapSection"
+// import advertisement from '../../images/advertisement/ballroom.jpg'
+// import PopUp from "../../components/Popup/PopUp"
+// import { useState, useEffect } from "react"
 
 
 
 const HomePage = () => {
-  const [trigger, setTrigger] = useState(false);
+  // const [trigger, setTrigger] = useState(false);
   // Trigger popup automatically when the component loads
-  useEffect(() => {
-    setTrigger(true); // Open the popup as soon as the component mounts
+  // useEffect(() => {
+  //   setTrigger(true); 
 
-    // Auto-close the popup after 5 seconds
-    const timer = setTimeout(() => {
-      setTrigger(false);  // Close the popup after 5 seconds
-    }, 5000); // 5000 ms = 5 seconds
+  //   const timer = setTimeout(() => {
+  //     setTrigger(false);  
+  //   }, 5000); 
 
-    return () => clearTimeout(timer);  // Clean up timer when component unmounts or trigger changes
-  }, []);  // Empty dependency array means this effect runs once when the component mounts
+  //   return () => clearTimeout(timer);  
+  // }, []); 
 
   return (
     <>
       <Navbar/>
-      <a href="#advertisement">
+      {/* <a href="#advertisement">
         <PopUp  trigger={trigger} setTrigger={setTrigger}>
       </PopUp>
-      </a>
+      </a> */}
 
       <div className="home-hero" >
 
@@ -156,7 +156,7 @@ const HomePage = () => {
       </div>
       <CallToAction/>
       <ServicesSection/>
-      <hr className="home-hr"/>
+      {/* <hr className="home-hr"/>
       <div className="event-advertisement" id="advertisement">
         <img className="advertisement-event-img" src={advertisement} alt="" />
         <h2 className="advertisement-title">Wellness Wednesday Ballroom & Karaoke Night!</h2>
@@ -187,8 +187,8 @@ const HomePage = () => {
           <p>Please include your full name and “Wellness Wednesday” in the message.</p>
         </div>
         <p><b>Let’s dance, sing, and celebrate wellness together – see you there!</b></p>
-      </div>
-
+      </div> */}
+      {/* <MapSection/> */}
       <Footer/>
 
     </>

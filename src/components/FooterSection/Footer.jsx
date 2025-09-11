@@ -1,5 +1,5 @@
-import { FaFacebook, FaEnvelope  } from "react-icons/fa";
-import { IoMdPhonePortrait } from "react-icons/io";
+// import { FaFacebook, FaEnvelope  } from "react-icons/fa";
+// import { IoMdPhonePortrait } from "react-icons/io";
 import logo from '../../images/icons/logo.png'
 import {Link} from 'react-router-dom'
 import './footer.css'
@@ -47,7 +47,7 @@ const Footer = () => {
 
       </div>
       {/* FOOTER CONTACT INFO */}
-      <div className="footer-contact">
+      {/* <div className="footer-contact">
           <p className="footer-title">
               Contact Us
           </p>
@@ -68,7 +68,20 @@ const Footer = () => {
               </a>
               
           </div>
-      </div>
+      </div> */}
+      {/* SERVICES HOURS */}
+        <div className="services-hours">
+            <h4 className='footer-title'>Office Hours</h4>
+            <div className="footer-hours">
+                <p><span className='hours-span'>Monday: </span> 11:00AM - 8:00PM</p>
+                <p><span className='hours-span'>Tuesday: </span> 11:00AM - 8:00PM</p>
+                <p><span className='hours-span'>Wednesday: </span> 11:00AM - 8:00PM</p>
+                <p><span className='hours-span'>Thursday: </span> 11:00AM - 8:00PM</p>
+                <p><span className='hours-span'>Friday: </span> 11:00AM - 8:00PM</p>
+                <p><span className='hours-span'>Saturday: </span> 12:00PM - 8:00PM</p>
+                <p><span className='hours-span'>Sunday: </span> Closed</p>
+            </div>
+        </div>
       
       {/* JOIN US SECTION LINKS */}
       <div className="join-link">

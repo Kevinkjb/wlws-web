@@ -115,6 +115,24 @@
         overflow-x: hidden;
     }
 } */
+ /* .footer-title{
+    margin-bottom: 2rem;
+} */
+/* .services-hours{
+    margin-left: 5rem;
+    border: .8rem solid #000;
+    padding: 3rem;
+    width: 30rem;
+} */
+.footer-hours p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: .3rem;
+}
+.hours-span{
+    font-weight: 500;
+    margin-right: .3rem;
+}
 
 @media screen and (max-width: 1200px) {
     .footer-section{

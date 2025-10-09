@@ -20,6 +20,7 @@ import sponsor7 from '../../images/sponsors/sponsor4.jpg'
 import sponsor8 from '../../images/sponsors/sponsor5.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
 import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2d29a6_logo.png'
+import sponsor11 from '../../images/sponsors/pharmacy.jpg'
 // import MapSection from "../../components/Map/MapSection"
 // import advertisement from '../../images/advertisement/ballroom.jpg'
 // import PopUp from "../../components/Popup/PopUp"
@@ -107,6 +108,11 @@ const HomePage = () => {
             <div className="sponsor-box">
               <a href="https://www.visioncu.ca/en/home" target="_blank">
                 <img className="sponsor-logo"  src={sponsor10} alt="Vision Credit Union" />
+              </a>
+            </div>
+            <div className="sponsor-box">
+              <a href="https://www.visioncu.ca/en/home" target="_blank">
+                <img className="sponsor-logo"  src={sponsor11} alt="Assosiate Pharmacy" />
               </a>
             </div>
             <div className="sponsor-box">

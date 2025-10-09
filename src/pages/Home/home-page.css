@@ -15,7 +15,7 @@
     /* padding: 2rem; */
 }
 .sponsor{
-    width: 85rem;
+    width: 100rem;
     margin: 5rem auto 2rem auto;
     max-width: 100%;
     /* padding: 2rem; */
@@ -68,9 +68,10 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 85rem;
+    width: 100rem;
     max-width: 100%;
     margin-top: 3rem;
+    padding: 0 1rem;
 }
 .collaborator-container{
     display: flex;

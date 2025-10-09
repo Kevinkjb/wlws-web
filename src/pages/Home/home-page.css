@@ -61,7 +61,7 @@
     align-items: center;
     justify-content: space-between;
     width: 35rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .sponsor-container{
     display: flex;
@@ -70,7 +70,7 @@
     flex-wrap: wrap;
     width: 100rem;
     max-width: 100%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 0 1rem;
 }
 .collaborator-container{

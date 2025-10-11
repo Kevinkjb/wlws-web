@@ -112,7 +112,7 @@ const HomePage = () => {
             </div>
             <div className="sponsor-box">
               <a href="https://www.associatepharmacy.com" target="_blank">
-                <img className="sponsor-logo"  src={sponsor11} alt="Assosiate Pharmacy" />
+                <img className="sponsor-logo"  src={sponsor11} alt="Associate Pharmacy" />
               </a>
             </div>
             <div className="sponsor-box">

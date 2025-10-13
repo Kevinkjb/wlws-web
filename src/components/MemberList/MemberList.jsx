@@ -1,16 +1,16 @@
-import marlon from '../../images/members/marlon.png';
-import gerald from '../../images/members/gerald.png';
+import marlon from '../../images/new-image-members/marlon.jpg';
+import gerald from '../../images/new-image-members/gerald.jpg';
 // import normita from '../../images/members/normita.png';
 // import artemio from '../../images/members/artemio.png';
-import adel from '../../images/members/adel.png';
-// import juanita from '../../images/members/juanita.png';
-import shirley from '../../images/members/shirley.png';
-import nelly from '../../images/members/nelly.png';
+import adel from '../../images/new-image-members/adel.jpg';
+import marsha from '../../images/new-image-members/marsha.jpg';
+import shirley from '../../images/new-image-members/shirley.jpg';
+import nelly from '../../images/new-image-members/nelly.jpg';
 import './member.css';
 
 const MemberList = () => {
   return (
-    <div className="">
+    <>
       <div className="member-list-header">
         <div className="member-header">
             <h2 className="member-title">WLWS Leadership & Operational Management</h2>
@@ -34,9 +34,9 @@ const MemberList = () => {
         {/* <div className="member member-five">
 
         </div> */}
-        {/* <div className="member member-six">
-            <img className='member-img' src={juanita} alt="Juanita Limbaga" />
-        </div> */}
+        <div className="member member-six">
+            <img className='member-img' src={marsha} alt="Marsha Merchant" />
+        </div>
         <div className="member member-seven">
             <img className='member-img' src={shirley} alt="Shirley Badua" />
         </div>
@@ -44,7 +44,7 @@ const MemberList = () => {
             <img className='member-img' src={nelly} alt="Nelly Vigil" />
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

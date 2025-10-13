@@ -74,9 +74,7 @@ const Navbar = () => {
                     <li className="nav-list">
                         <Link to="/contact" className='nav-link' onClick={closeMobile}>Contact Us</Link>
                     </li>
-
                     <DropDown/>
-                    
                     <li className="nav-list donate-list">
                         <Link className=' donate-link' to="/donate">Donate Now <FaHeart className='heart-icon'/></Link>
                     </li>
@@ -85,7 +83,6 @@ const Navbar = () => {
                     {burgerMenu ? <IoCloseSharp className='close-menu' /> : <GiHamburgerMenu className='burger-menu' />}
                 </div>
           </div>
-                
         </div>
     </>
     

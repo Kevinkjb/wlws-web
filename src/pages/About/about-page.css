@@ -82,7 +82,7 @@
     align-items: flex-start;
     width: 85rem;
     max-width: 100%;
-    margin: 8rem auto 5rem;
+    margin: 5rem auto 3rem;
     padding: 2rem;
 }
 
@@ -220,6 +220,7 @@
     .about-page-img{
         width: 22rem;
         height: 22rem;
+        margin-bottom: 0;
     }
 
     .about-page-text{
@@ -234,10 +235,12 @@
         width: 22rem;
         padding: 1rem;
     }
+    .about-page-img-containter,
     .about-page-img{
         width: 20rem;
         height: 20rem;
     }
+
     .about-page-text{
         width: 20rem;
     }

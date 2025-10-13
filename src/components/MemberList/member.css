@@ -1,9 +1,10 @@
 
 .member-list-header{
-    width: 90rem;
+    width: 35rem;
     max-width: 100%;
     margin: 0 auto;
     padding: 2rem;
+    text-align: center;
 
 }
 .member-header{

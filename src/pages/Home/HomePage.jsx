@@ -6,7 +6,7 @@ import ServicesSection from "../../components/ServicesSection/ServicesSection"
 import Navbar from '../../components/Navbar/Navbar';
 import './home-page.css';
 import wetaskiwin from '../../images/funders/wetaskiwin.jpeg'
-import alberta from '../../images/funders/alberta.jpg'
+import alberta from '../../images/sponsors/alberta.png'
 import collaborator1 from '../../images/collaborator/wfcf.png'
 // import collaborator2 from '../../images/collaborator/vision.png'
 import collaborator3 from '../../images/collaborator/wehoops.png'
@@ -17,7 +17,7 @@ import sponsor4 from '../../images/sponsors/sponsor1.jpg'
 import sponsor5 from '../../images/sponsors/sponsor2.png'
 import sponsor6 from '../../images/sponsors/sponsor3.webp'
 import sponsor7 from '../../images/sponsors/sponsor4.jpg'
-import sponsor8 from '../../images/sponsors/sponsor5.jpg'
+// import sponsor8 from '../../images/sponsors/sponsor5.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
 import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2d29a6_logo.png'
 import sponsor11 from '../../images/sponsors/pharmacy.jpg'
@@ -148,11 +148,11 @@ const HomePage = () => {
                 <img className="sponsor-logo"  src={sponsor7} alt="Dynacore Medical and Orthotics" />
               </a>
             </div>
-            <div className="sponsor-box">
+            {/* <div className="sponsor-box">
               <a href="https://www.facebook.com/profile.php?id=100068778164866" target="_blank">
                 <img className="sponsor-logo"  src={sponsor8} alt="Holistic Touch Wellness" />
               </a>
-            </div>
+            </div> */}
             <div className="sponsor-box">
               <a href="/" target="_blank">
                 <img className="sponsor-logo"  src={sponsor9} alt="E-Sound" />

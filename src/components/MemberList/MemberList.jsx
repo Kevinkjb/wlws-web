@@ -35,13 +35,14 @@ const MemberList = () => {
 
         </div> */}
         <div className="member member-six">
-            <img className='member-img' src={marsha} alt="Marsha Merchant" />
+          <img className='member-img' src={nelly} alt="Nelly Vigil" />
+            
         </div>
         <div className="member member-seven">
             <img className='member-img' src={shirley} alt="Shirley Badua" />
         </div>
         <div className="member member-eight">
-            <img className='member-img' src={nelly} alt="Nelly Vigil" />
+            <img className='member-img' src={marsha} alt="Marsha Merchant" />
         </div>
       </div>
     </>

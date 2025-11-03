@@ -6,6 +6,7 @@ import adel from '../../images/new-image-members/adel.jpg';
 import marsha from '../../images/new-image-members/marsha.jpg';
 import shirley from '../../images/new-image-members/shirley.jpg';
 import nelly from '../../images/new-image-members/nelly.jpg';
+import steph from '../../images/new-image-members/steph.jpg';
 import './member.css';
 
 const MemberList = () => {
@@ -25,23 +26,24 @@ const MemberList = () => {
             <img className='member-img' src={gerald} alt="Gerald Achazo" />
         </div>
         <div className="member member-three">
-            <img className='member-img' src={adel} alt="Adelaida Lauro" />
+            <img className='member-img' src={steph} alt="Stephanie Strormquist" />
             {/* <img className='member-img' src={normita} alt="Normita Santos" /> */}
         </div>
-        {/* <div className="member member-four">
-            <img className='member-img' src={artemio} alt="Artemio Limbaga" />
-        </div> */}
+        <div className="member member-four">
+          <img className='member-img' src={adel} alt="Adelaida Lauro" />
+
+        </div>
         {/* <div className="member member-five">
 
         </div> */}
-        <div className="member member-six">
+        <div className="member member-five">
           <img className='member-img' src={nelly} alt="Nelly Vigil" />
             
         </div>
-        <div className="member member-seven">
+        <div className="member member-six">
             <img className='member-img' src={shirley} alt="Shirley Badua" />
         </div>
-        <div className="member member-eight">
+        <div className="member member-seven">
             <img className='member-img' src={marsha} alt="Marsha Merchant" />
         </div>
       </div>

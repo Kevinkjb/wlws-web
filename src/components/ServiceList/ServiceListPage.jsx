@@ -143,9 +143,9 @@ const ServiceListPage = () => {
                         <p>Basic and Advanced Computer Literacy</p>
                         <p>Pre-registration required(2 clients minimum) – Cost: $25/hr</p>
                     </div>
-                    {/* <a href="">
-                        <button className='services-book'>Book appointment</button>
-                    </a> */}
+                    <a href="https://docs.google.com/forms/d/11WgXrIvNTHin2Zi3UTSA3c9GNKV33NaRqTqY_UwCznk/edit" target='_blank'>
+                        <button className='services-book'>Register Now</button>
+                    </a>
                 </div>
                 
             </div>

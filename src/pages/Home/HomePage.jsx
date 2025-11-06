@@ -23,31 +23,31 @@ import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2
 import sponsor11 from '../../images/sponsors/pharmacy.jpg'
 // import MapSection from "../../components/Map/MapSection"
 // import advertisement from '../../images/advertisement/ballroom.jpg'
-// import PopUp from "../../components/Popup/PopUp"
-// import { useState, useEffect } from "react"
+import PopUp from "../../components/Popup/PopUp"
+import { useState, useEffect } from "react"
 
 
 
 const HomePage = () => {
-  // const [trigger, setTrigger] = useState(false);
+  const [trigger, setTrigger] = useState(false);
   // Trigger popup automatically when the component loads
-  // useEffect(() => {
-  //   setTrigger(true); 
+  useEffect(() => {
+    setTrigger(true); 
 
-  //   const timer = setTimeout(() => {
-  //     setTrigger(false);  
-  //   }, 5000); 
+    const timer = setTimeout(() => {
+      setTrigger(false);  
+    }, 5000); 
 
-  //   return () => clearTimeout(timer);  
-  // }, []); 
+    return () => clearTimeout(timer);  
+  }, []); 
 
   return (
     <>
       <Navbar/>
-      {/* <a href="#advertisement">
+      <a href="#advertisement">
         <PopUp  trigger={trigger} setTrigger={setTrigger}>
       </PopUp>
-      </a> */}
+      </a>
 
       <div className="home-hero" >
 
@@ -162,38 +162,34 @@ const HomePage = () => {
       </div>
       <CallToAction/>
       <ServicesSection/>
-      {/* <hr className="home-hr"/>
+      <hr className="home-hr"/>
       <div className="event-advertisement" id="advertisement">
-        <img className="advertisement-event-img" src={advertisement} alt="" />
-        <h2 className="advertisement-title">Wellness Wednesday Ballroom & Karaoke Night!</h2>
-        <p className="home-event-text">
+        {/* <img className="advertisement-event-img" src={advertisement} alt="" /> */}
+        <h3 className="advertisement-title">Launching of Digital Literacy Program on November 26, 2025</h3>
+        {/* <p className="home-event-text">
           Join us for an unforgettable Wellness Wednesday hosted by Wetaskiwin Literacy & Wellness Services! 
-        </p>
-        <p className="home-event-text">This lively evening is all about fun, wellness, and community connection through music and movement.</p>
+        </p> */}
         <div className="event-advertisement-info">
-          <h5 className="event-home-subtitle">Event Highlights:</h5>
-          <ul>
-            <li>Ballroom Dancing</li>
-            <li>Karaoke Fun</li>
-            <li>Delicious Food & Drinks</li>
-          </ul>
-          <p><b>Date:</b> September 10, 2025</p>
-          <p><b>Time:</b> 1:00 PM – 9:00 PM</p>
-          <p><b>Location:</b>  5205B 49 Ave, Wetaskiwin, AB</p>
+          <h5 className="event-home-subtitle">Batch 1</h5>
+          <p>Wednesdays and Thursdays</p>
+          <p><b>Time:</b> 10:00 AM – 12:15 PM</p>
         </div>
         <div className="event-advertisement-info">
-          <h5 className="event-home-subtitle">Tickets: $10.00</h5>
-          <p>Includes food, drink, and coffee/tea!</p>
-          <p>Limited tickets available – don’t miss out!</p>
+          <h5 className="event-home-subtitle">Batch 2</h5>
+          <p><b>Time:</b> 5:00 AM – 7:15 PM</p>
+          <p>Wednesdays and Thursdays</p>
         </div>
 
         <div className="event-advertisement-info">
-          <h5 className="event-home-subtitle">E-transfer Option:</h5>
-          <p>Send your payment via e-transfer to: <b>wetaskiwinliteracyservices@gmail.com</b></p>
-          <p>Please include your full name and “Wellness Wednesday” in the message.</p>
+          <h5 className="event-home-subtitle">Math Tutorial Session:</h5>
+          <p>Wednesday - 4:00 - 8:00PM</p>
+          <p>{`We may open more schedules upon client's request / availability`}</p>
         </div>
-        <p><b>Let’s dance, sing, and celebrate wellness together – see you there!</b></p>
-      </div> */}
+        <h5 className="event-home-subtitle">Contact Us:</h5>
+        <p><b>780-362-0909 / 780-839-8314</b></p>
+        <p><b>wetaskiwinliteracyservices@gmail.com</b></p>
+        
+      </div>
       {/* <MapSection/> */}
       <Footer/>
 

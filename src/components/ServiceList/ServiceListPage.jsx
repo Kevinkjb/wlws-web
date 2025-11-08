@@ -138,7 +138,7 @@ const ServiceListPage = () => {
                     </p>
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
-                        <p>Wednesdays & Fridays/ 4:00 PM - 6:00 PM</p>
+                        <p>Monday to Friday - 4:00 PM - 8:00 PM</p>
                         <p>Basic Math to Advanced Calculus </p>
                         <p>Basic and Advanced Computer Literacy</p>
                         <p>Pre-registration required(2 clients minimum) – Cost: $25/hr</p>

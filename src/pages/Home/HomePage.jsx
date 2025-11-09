@@ -182,7 +182,7 @@ const HomePage = () => {
 
         <div className="event-advertisement-info">
           <h5 className="event-home-subtitle">Math Tutorial Session:</h5>
-          <p>Wednesday - 4:00 - 8:00PM</p>
+          <p>Monday to Friday - 4:00 PM - 8:00 PM</p>
           <p>{`We may open more schedules upon client's request / availability`}</p>
         </div>
         <h5 className="event-home-subtitle">Contact Us:</h5>

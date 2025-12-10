@@ -25,7 +25,7 @@ const ServiceListPage = () => {
                     </p>
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
-                        <p>Wednesdays & Thursdays 10:00 AM - 12:15 PM </p>
+                        <p>Wednesdays & Thursdays: 10:00 AM – 12:15 PM / 5:00 PM – 7:15 PM</p>
                         <p>BASIC DIGITAL LITERACY – FREE</p>
                         <p>ADVANCED DIGITAL LITERACY – $10/hr</p>
                         <p>Pre-registration Required: 6 clients minimum</p>
@@ -117,8 +117,8 @@ const ServiceListPage = () => {
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
                         <p>BY APPOINTMENT (FREE)</p>
-                        <p>Mondays & Fridays – 12:00 PM - 1:00 PM /4:00 PM- 5:00 PM</p>
-                        <p>Saturdays: 1:00 PM - 3:00 PM</p>
+                        <p>Mondays & Fridays: 12:00 PM – 1:00 PM / 4:00 PM – 5:00 PM</p>
+                        <p>Saturdays: 1:00 PM – 3:00 PM</p>
                     </div>
                     {/* <a href="">
                         <button className='services-book'>Book appointment</button>
@@ -138,10 +138,10 @@ const ServiceListPage = () => {
                     </p>
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
-                        <p>Monday to Friday - 4:00 PM - 8:00 PM</p>
+                        <p>Monday to Friday: 4:00 PM – 8:00 PM</p>
                         <p>Basic Math to Advanced Calculus </p>
                         <p>Basic and Advanced Computer Literacy</p>
-                        <p>Pre-registration required(2 clients minimum) – Cost: $25/hr</p>
+                        <p>Pre-registration required (2 clients minimum) – Cost: $25/hr</p>
                     </div>
                     <a href="https://docs.google.com/forms/d/11WgXrIvNTHin2Zi3UTSA3c9GNKV33NaRqTqY_UwCznk/edit" target='_blank'>
                         <button className='services-book'>Register Now</button>

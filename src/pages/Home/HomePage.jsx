@@ -23,31 +23,31 @@ import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2
 import sponsor11 from '../../images/sponsors/pharmacy.jpg'
 // import MapSection from "../../components/Map/MapSection"
 // import advertisement from '../../images/advertisement/ballroom.jpg'
-import PopUp from "../../components/Popup/PopUp"
-import { useState, useEffect } from "react"
+// import PopUp from "../../components/Popup/PopUp"
+// import { useState, useEffect } from "react"
 
 
 
 const HomePage = () => {
-  const [trigger, setTrigger] = useState(false);
+  // const [trigger, setTrigger] = useState(false);
   // Trigger popup automatically when the component loads
-  useEffect(() => {
-    setTrigger(true); 
+  // useEffect(() => {
+  //   setTrigger(true); 
 
-    const timer = setTimeout(() => {
-      setTrigger(false);  
-    }, 5000); 
+  //   const timer = setTimeout(() => {
+  //     setTrigger(false);  
+  //   }, 5000); 
 
-    return () => clearTimeout(timer);  
-  }, []); 
+  //   return () => clearTimeout(timer);  
+  // }, []); 
 
   return (
     <>
       <Navbar/>
-      <a href="#advertisement">
+      {/* <a href="#advertisement">
         <PopUp  trigger={trigger} setTrigger={setTrigger}>
       </PopUp>
-      </a>
+      </a> */}
 
       <div className="home-hero" >
 
@@ -162,13 +162,11 @@ const HomePage = () => {
       </div>
       <CallToAction/>
       <ServicesSection/>
-      <hr className="home-hr"/>
+      {/* <hr className="home-hr"/>
       <div className="event-advertisement" id="advertisement">
-        {/* <img className="advertisement-event-img" src={advertisement} alt="" /> */}
+
         <h3 className="advertisement-title">Launching of Digital Literacy Program on November 26, 2025</h3>
-        {/* <p className="home-event-text">
-          Join us for an unforgettable Wellness Wednesday hosted by Wetaskiwin Literacy & Wellness Services! 
-        </p> */}
+
         <div className="event-advertisement-info">
           <h5 className="event-home-subtitle">Batch 1</h5>
           <p>Wednesdays and Thursdays</p>
@@ -176,7 +174,7 @@ const HomePage = () => {
         </div>
         <div className="event-advertisement-info">
           <h5 className="event-home-subtitle">Batch 2</h5>
-          <p><b>Time:</b> 5:00 AM – 7:15 PM</p>
+          <p><b>Time:</b> 5:00 PM – 7:15 PM</p>
           <p>Wednesdays and Thursdays</p>
         </div>
 
@@ -189,7 +187,7 @@ const HomePage = () => {
         <p><b>780-362-0909 / 780-839-8314</b></p>
         <p><b>wetaskiwinliteracyservices@gmail.com</b></p>
         
-      </div>
+      </div> */}
       {/* <MapSection/> */}
       <Footer/>
 

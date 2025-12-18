@@ -23,31 +23,32 @@ import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2
 import sponsor11 from '../../images/sponsors/pharmacy.jpg'
 // import MapSection from "../../components/Map/MapSection"
 // import advertisement from '../../images/advertisement/ballroom.jpg'
-// import PopUp from "../../components/Popup/PopUp"
-// import { useState, useEffect } from "react"
+import PopUp from "../../components/Popup/PopUp"
+import { useState, useEffect } from "react"
+import {Link} from 'react-router-dom'
 
 
 
 const HomePage = () => {
-  // const [trigger, setTrigger] = useState(false);
+  const [trigger, setTrigger] = useState(false);
   // Trigger popup automatically when the component loads
-  // useEffect(() => {
-  //   setTrigger(true); 
+  useEffect(() => {
+    setTrigger(true); 
 
-  //   const timer = setTimeout(() => {
-  //     setTrigger(false);  
-  //   }, 5000); 
+    const timer = setTimeout(() => {
+      setTrigger(false);  
+    }, 5000); 
 
-  //   return () => clearTimeout(timer);  
-  // }, []); 
+    return () => clearTimeout(timer);  
+  }, []); 
 
   return (
     <>
       <Navbar/>
-      {/* <a href="#advertisement">
+      <Link to="/events">
         <PopUp  trigger={trigger} setTrigger={setTrigger}>
       </PopUp>
-      </a> */}
+      </Link>
 
       <div className="home-hero" >
 

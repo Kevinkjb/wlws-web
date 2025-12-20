@@ -45,10 +45,10 @@ const HomePage = () => {
   return (
     <>
       <Navbar/>
-      <Link to="/events">
+ 
         <PopUp  trigger={trigger} setTrigger={setTrigger}>
       </PopUp>
-      </Link>
+
 
       <div className="home-hero" >
 

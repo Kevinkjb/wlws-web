@@ -25,6 +25,7 @@
     font-size: 2rem;
     cursor: pointer;
     transition: all .1s ease;
+            z-index: 9999;
 }
 .popup-inner .close-btn:hover{
     transform: scale(1.1);
@@ -36,7 +37,7 @@
   cursor: pointer;
   width: 40rem;
   max-width: 100%; /* Or any size you prefer */
-    z-index: 999;
+
   height: 100%;
 }
 
@@ -48,6 +49,7 @@
         font-size: 1.5rem;
         cursor: pointer;
         transition: all .1s ease;
+        z-index: 9999;
     }
 
 }

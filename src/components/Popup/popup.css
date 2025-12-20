@@ -39,12 +39,7 @@
     z-index: 999;
   height: 100%;
 }
-@media screen and (max-width: 1400px) {
 
-    .popup{
-       top: -30rem;
-    }
-}
 @media screen and (max-width: 600px) {
     .popup-inner .close-btn{
         position: absolute;
@@ -54,7 +49,5 @@
         cursor: pointer;
         transition: all .1s ease;
     }
-    .popup{
-        top: -40rem;
-    }
+
 }

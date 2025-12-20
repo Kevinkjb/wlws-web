@@ -8,14 +8,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 999;
+    z-index: 9999;
 
 }
 .popup-inner{
     position: relative;
-
-    width: 100%;
-    max-width: 400px;
+    width: 40rem;
+    max-width: 100%;
     background-color: #fff;
 
 }
@@ -35,9 +34,16 @@
 }
 .popup-image {
   cursor: pointer;
+  width: 40rem;
   max-width: 100%; /* Or any size you prefer */
-
+    z-index: 999;
   height: 100%;
+}
+@media screen and (max-width: 1400px) {
+
+    .popup{
+       top: -30rem;
+    }
 }
 @media screen and (max-width: 600px) {
     .popup-inner .close-btn{
@@ -47,5 +53,8 @@
         font-size: 1.5rem;
         cursor: pointer;
         transition: all .1s ease;
+    }
+    .popup{
+        top: -40rem;
     }
 }

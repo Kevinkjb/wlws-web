@@ -37,7 +37,7 @@ const HomePage = () => {
 
     const timer = setTimeout(() => {
       setTrigger(false);  
-    }, 5000); 
+    }, 10000); 
 
     return () => clearTimeout(timer);  
   }, []); 

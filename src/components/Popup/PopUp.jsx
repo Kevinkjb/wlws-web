@@ -2,7 +2,7 @@
 import { FaRegWindowClose } from "react-icons/fa";
 import './popup.css'
 
-import popImg from '../../images/advertisement/heritage.png'
+import popImg from '../../images/advertisement/advertisement.jpg'
 const Popup = (props) => {
   const handleImageClick = () => {
     props.setTrigger(false);  // Close the popup when the image is clicked

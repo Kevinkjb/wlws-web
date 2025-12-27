@@ -78,7 +78,7 @@ const EventsPage = () => {
           By performing at the festival, they play a key role in spreading cultural appreciation, fostering unity, and entertaining a diverse crowd.
         </p>
         <p className="performer-text-two">Want to perform?</p>
-        <a href="https://docs.google.com/forms/d/1FA9XqGmd9yrio1TyQO_z5KjqZ2Y3hd6_ihfj9_7ejNI/edit" target="_blank">
+        <a href="https://docs.google.com/forms/d/1aXYwv0YNNxhrl0yaJng2cAevui57YY13iZoIrJ-47Ew/viewform?edit_requested=true" target="_blank">
           <button className="events-register-btn">Register Now!</button>
         </a>
       </div>
@@ -106,7 +106,7 @@ const EventsPage = () => {
           making it an excellent way to promote cultural exchange and support local businesses.
         </p>
         <p className="vendors-text-two">Want to setup a booth?</p>
-        <a href="https://forms.gle/NZhWKrvfrpgn4mEw8" target="_blank">
+        <a href="https://docs.google.com/forms/d/1cxCfEqPI89PQw_37ElrmwRO9n35dPSbl5gHeFB16Uv8/viewform?pli=1&pli=1&edit_requested=true" target="_blank">
           <button className="events-register-btn">Register Now!</button>
         </a>
       </div>

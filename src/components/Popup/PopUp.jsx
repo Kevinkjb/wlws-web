@@ -3,7 +3,7 @@ import { FaRegWindowClose } from "react-icons/fa";
 import './popup.css'
 import { Link } from "react-router-dom";
 
-import popImg from '../../images/advertisement/advertisement.jpg'
+import popImg from '../../images/advertisement/events-heritage.jpg'
 const Popup = (props) => {
   const handleImageClick = () => {
     props.setTrigger(false);  // Close the popup when the image is clicked

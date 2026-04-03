@@ -25,7 +25,7 @@ const ServiceListPage = () => {
                     </p>
                     <div className="schedule-section">
                         <p>Delivery Schedules: </p>
-                        <p>Wednesdays & Thursdays: 10:00 AM – 12:15 PM / 5:00 PM – 7:15 PM</p>
+                        <p>Thursday & Saturdays: 6:00 PM – 8:00 PM / 1:00 PM – 3:00 PM</p>
                         <p>BASIC DIGITAL LITERACY – FREE</p>
                         <p>ADVANCED DIGITAL LITERACY – $10/hr</p>
                         <p>Pre-registration Required: 6 clients minimum</p>

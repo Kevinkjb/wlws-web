@@ -9,6 +9,7 @@ const DropDown = () => {
       <Dropdown.Item className='drop-item' href="https://docs.google.com/forms/d/1aXYwv0YNNxhrl0yaJng2cAevui57YY13iZoIrJ-47Ew/viewform?edit_requested=true" target='_blank'>Performer</Dropdown.Item>
       <Dropdown.Item className='drop-item' href="https://docs.google.com/forms/d/105tZQJHAtGt1Dx1721b8_kQTiBnfzXbJ6ZgpKwbhhr8/viewform?edit_requested=true" target='_blank'>Volunteer</Dropdown.Item>
       <Dropdown.Item className='drop-item' href="https://docs.google.com/forms/d/17ZBqsl_3C-iPvAhy6QerLHgq3tm-w1XuY8KtJ5UVOkg/viewform?edit_requested=true" target='_blank'>Non-Profit</Dropdown.Item>
+            <Dropdown.Item className='drop-item' href="https://docs.google.com/forms/d/1iErxnCTGcWgtIcNgOt5FrEt1FnR5rD4BfrU0SsbeYSs/viewform?edit_requested=true" target='_blank'>Digital Literacy Training</Dropdown.Item>
     </DropdownButton>
   )
 }

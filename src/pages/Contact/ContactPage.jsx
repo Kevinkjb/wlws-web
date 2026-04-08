@@ -4,6 +4,7 @@ import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FiPhone } from "react-icons/fi";
 import { HiOutlineMail } from "react-icons/hi";
+import { MdOutlinePhoneIphone } from "react-icons/md";
 
 import './contact.css'
 const ContactPage = () => {
@@ -88,11 +89,20 @@ const ContactPage = () => {
             <div className="contact-details">
               <div className="contact-phone">
                 <div className="contact-icon-container">
+                  <MdOutlinePhoneIphone className="phone-icon" />
+                </div>
+                <div className="contact-detail-container">
+                  <p className="contact-detail-title">Mobile</p>
+                  <p className="contact-detail-text">780-362-0909</p>
+                </div>
+              </div>
+              <div className="contact-phone">
+                <div className="contact-icon-container">
                   <FiPhone className="phone-icon" />
                 </div>
                 <div className="contact-detail-container">
-                  <p className="contact-detail-title">Phone</p>
-                  <p className="contact-detail-text">780-362-0909</p>
+                  <p className="contact-detail-title">Telephone</p>
+                  <p className="contact-detail-text">780-312-7856</p>
                 </div>
               </div>
               <div className="contact-phone">

@@ -53,7 +53,8 @@ const EventsPage = () => {
                     <hr className="festival-hr"/>
                 </div>
             </div>
-            <p className="festival-text">The Wetaskiwin Literacy & Wellness Services LTD is thrilled to announce the Multicultural Heritage Festival in the City of Wetaskiwin every 1st weekend of July annually, at Jubilee Park.</p>
+            <p className="festival-text">The Wetaskiwin Literacy & Wellness Services Ltd. proudly presents the annual Multicultural Heritage Festival, a vibrant celebration of culture, diversity, and community in the City of Wetaskiwin. Join us from June 19–21, 2026, at Norm Brown Addy Field (48 Avenue, Wetaskiwin, AB) for three exciting days of cultural performances, international cuisine, music, dance, arts, and family-friendly activities. Taking place from 11:00 AM to 10:00 PM daily, this festival brings together people from all backgrounds to share traditions, build connections, and celebrate the rich multicultural spirit of our community. Come experience the sights, sounds, and flavors of the world right here in Wetaskiwin!
+</p>
       </div>
       {/* PERFORMERS SECTION */}
       <div className="performers-section">

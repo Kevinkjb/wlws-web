@@ -21,11 +21,13 @@ import sponsor7 from '../../images/sponsors/sponsor4.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
 import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2d29a6_logo.png'
 import sponsor11 from '../../images/sponsors/pharmacy.jpg'
+import sponsor12 from '../../images/sponsors/texas chicken.png'
+import sponsor13 from '../../images/sponsors/larry.jpg'
 // import MapSection from "../../components/Map/MapSection"
 // import advertisement from '../../images/advertisement/ballroom.jpg'
 import PopUp from "../../components/Popup/PopUp"
 import { useState, useEffect } from "react"
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 
 
@@ -119,6 +121,16 @@ const HomePage = () => {
             <div className="sponsor-box">
               <a href="https://aquinascollege.ca/" target="_blank">
                 <img className="sponsor-logo"  src={sponsor1} alt="Aquinas College" />
+              </a>
+            </div>
+            <div className="sponsor-box">
+              <a href="https://edmonton.churchstexaschicken.com/" target="_blank">
+                <img className="sponsor-logo"  src={sponsor12} alt="Church Texas Chicken" />
+              </a>
+            </div>
+            <div className="sponsor-box">
+              <a href="https://www.larrymatirarealty.com/" target="_blank">
+                <img className="sponsor-logo"  src={sponsor13} alt="Larry Matira" />
               </a>
             </div>
             <div className="sponsor-box">

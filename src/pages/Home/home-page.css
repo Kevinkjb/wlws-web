@@ -64,13 +64,16 @@
     margin-top: 2rem;
 }
 .sponsor-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100rem;
+    width: 80rem;
+    margin: 2rem auto;
     max-width: 100%;
-    margin-top: 2rem;
+
     padding: 0 1rem;
 }
 .collaborator-container{
@@ -273,6 +276,11 @@
         width: 10rem;
         height: 10rem;
     }
+    .sponsor-container{
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, 1fr);
+        width: 40rem;
+    }
 }
 @media screen and (max-width: 780px) {
     .funders-container{
@@ -305,12 +313,7 @@
         width: 25rem;
         padding: 1rem;
     }
-    .sponsor-container{
-        flex-wrap: wrap;
-        width: 25rem;
-        margin: 0 auto;
-        padding: 1rem;
-    }
+
 
 }
 @media screen and (max-width: 490px) {
@@ -321,6 +324,11 @@
     .funder-box{
         width: 10rem;
         height: 10rem;  
+    }
+    .sponsor-container{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(6, 1fr);
+        width: 22rem;
     }
 }
 @media screen and (max-width: 420px) {

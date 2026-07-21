@@ -20,6 +20,7 @@ import sponsor7 from '../../images/sponsors/sponsor4.jpg'
 // import sponsor8 from '../../images/sponsors/sponsor5.jpg'
 import sponsor9 from '../../images/sponsors/sponsor6.jpg'
 import sponsor10 from '../../images/sponsors/a6b1bcfe2b3ef6af486c4f5bee3bc0a06d2d29a6_logo.png'
+import sponsor14 from '../../images/sponsors/Petro-Canada_logo.png'
 import sponsor11 from '../../images/sponsors/pharmacy.jpg'
 import sponsor12 from '../../images/sponsors/texas chicken.png'
 import sponsor13 from '../../images/sponsors/larry.jpg'
@@ -111,6 +112,11 @@ const HomePage = () => {
             <div className="sponsor-box">
               <a href="https://www.visioncu.ca/en/home" target="_blank">
                 <img className="sponsor-logo"  src={sponsor10} alt="Vision Credit Union" />
+              </a>
+            </div>
+            <div className="sponsor-box">
+              <a href="https://www.petro-canada.ca/en/personal/gas-station-locations?place=5020-56-street-wetaskiwin&latlng=52.971592,-113.390671&zoom=20" target="_blank">
+                <img className="sponsor-logo"  src={sponsor14} alt="Vision Credit Union" />
               </a>
             </div>
             <div className="sponsor-box">

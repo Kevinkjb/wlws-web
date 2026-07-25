@@ -145,6 +145,7 @@
 }
 .advertisement-img{
     width: 40rem;
+    max-width: 100%;
 }
 /* DONATION SECTION */
 /* 

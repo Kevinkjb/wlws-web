@@ -24,11 +24,14 @@ import sponsor14 from '../../images/sponsors/Petro-Canada_logo.png'
 import sponsor11 from '../../images/sponsors/pharmacy.jpg'
 import sponsor12 from '../../images/sponsors/texas chicken.png'
 import sponsor13 from '../../images/sponsors/larry.jpg'
+import sponsor15 from '../../images/sponsors/smitty.webp'
+
 // import MapSection from "../../components/Map/MapSection"
-// import advertisement from '../../images/advertisement/ballroom.jpg'
+import advertisement from '../../images/advertisement/advertisement1.jpg'
 import PopUp from "../../components/Popup/PopUp"
+
 import { useState, useEffect } from "react"
-// import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 
 
@@ -135,6 +138,11 @@ const HomePage = () => {
               </a>
             </div>
             <div className="sponsor-box">
+              <a href="https://smittys.ca/" target="_blank">
+                <img className="sponsor-logo"  src={sponsor15} alt="Smitty's" />
+              </a>
+            </div>
+            <div className="sponsor-box">
               <a href="https://www.larrymatirarealty.com/" target="_blank">
                 <img className="sponsor-logo"  src={sponsor13} alt="Larry Matira" />
               </a>
@@ -179,8 +187,16 @@ const HomePage = () => {
             </div>
           </div>
       </div>
+      <hr className="home-hr"/>
+      <div className="event-advertisement" id="advertisement">
+        <Link to="services">
+            <img className="advertisement-img" src={advertisement} alt="" />
+        </Link>
+
+      </div>
       <CallToAction/>
       <ServicesSection/>
+
       {/* <hr className="home-hr"/>
       <div className="event-advertisement" id="advertisement">
 

@@ -39,6 +39,11 @@ const DropDown = () => {
         href="https://docs.google.com/forms/d/1PUZAmU1e2APvbI0e0bKFvZwDUUih9on4ix9wsdum3qk/viewform?edit_requested=true" 
         target='_blank'>Sponsorship
       </Dropdown.Item>
+      <Dropdown.Item 
+        className='drop-item' 
+        href="https://docs.google.com/forms/d/1MO88ReA0L_RL5WWvGC3sLnCc_Kj8xdym_0OS_j3GlhM/viewform?edit_requested=true" 
+        target='_blank'>Wellness Friday - Zumba Class
+      </Dropdown.Item>
     </DropdownButton>
   )
 }

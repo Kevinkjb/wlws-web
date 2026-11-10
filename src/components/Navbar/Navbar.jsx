@@ -2,7 +2,7 @@ import logo from '../../images/icons/logo.png';
 import { useState } from 'react';
 import './navbar.css'
 import {Link} from 'react-router-dom'
-import { FaHeart } from "react-icons/fa";
+// import { FaHeart } from "react-icons/fa";
 import { useEffect } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";

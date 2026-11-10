@@ -76,7 +76,11 @@ const Navbar = () => {
                     </li>
                     <DropDown/>
                     <li className="nav-list donate-list">
-                        <Link className=' donate-link' to="/donate">Donate Now <FaHeart className='heart-icon'/></Link>
+                        <a className=' donate-link'
+                         href='https://www.clover.com/pay-widgets/ae04c911-46aa-44e2-8449-d063659509f6' target='_blank'>
+                            Donate Now 
+                        {/* <FaHeart className='heart-icon'/> */}
+                        </a>
                     </li>
                 </ul>
                 <div className='nav-button' onClick={() => setBurgerMenu(!burgerMenu)}>
